@@ -35,6 +35,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 
 **When it is broken.** A screen that lists everything the system knows, ordered by the data model, with no answer to the question the user opened it with.
 
+**See:** [figure of a one-sentence job-to-be-done statement beside a persona](https://www.nngroup.com/articles/personas-jobs-be-done/)
+
 **Sources:** [Christensen et al., "Know Your Customers' Jobs to Be Done", HBR](https://hbr.org/2016/09/know-your-customers-jobs-to-be-done); [NN/g, Personas vs. Jobs-to-Be-Done](https://www.nngroup.com/articles/personas-jobs-be-done/); [NN/g, User Need Statements](https://www.nngroup.com/articles/user-need-statements/)
 
 ### Design for the moment of use
@@ -48,6 +50,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 - Learn these facts by watching people in their own setting or through diary studies, not by guessing.
 
 **When it is broken.** A flow that only works in one uninterrupted sitting, or a summary that needs scrolling and tapping before it says anything.
+
+**See:** [figures of one-handed, cradled and two-handed phone grips with usage shares](https://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php)
 
 **Sources:** [NN/g, Mobile User Experience: Limitations and Strengths](https://www.nngroup.com/articles/mobile-ux/); [NN/g, Field Studies](https://www.nngroup.com/articles/field-studies/); [NN/g, Diary Studies](https://www.nngroup.com/articles/diary-studies/); [NN/g, Task Analysis](https://www.nngroup.com/articles/task-analysis/)
 
@@ -64,6 +68,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 
 **When it is broken.** A page where a promotional banner, a chart and a list are the same size and weight, so the eye jumps between them, and the one number the user came for sits below the fold.
 
+**See:** [annotated screenshots of weak and strong hierarchy, plus blurred squint-test images](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
+
 **Sources:** [Apple HIG, Writing ("Consider each screen's purpose")](https://developer.apple.com/design/human-interface-guidelines/writing); [NN/g, Visual Hierarchy in UX](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/); [NN/g, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/); [NN/g, The Aesthetic-Usability Effect](https://www.nngroup.com/articles/aesthetic-usability-effect/)
 
 ## Structure and navigation
@@ -79,6 +85,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 
 **When it is broken.** Categories named after internal teams or database tables, which users click through one by one hunting for a known item.
 
+**See:** [photos and screenshots of a card sort grouping and labelling cards](https://www.nngroup.com/articles/card-sorting-definition/); [tree-test participant view and process diagram for checking menu labels](https://www.nngroup.com/articles/tree-testing/)
+
 **Sources:** [NN/g, Card Sorting](https://www.nngroup.com/articles/card-sorting-definition/); [NN/g, Tree Testing](https://www.nngroup.com/articles/tree-testing/); [NN/g, The Difference Between IA and Navigation](https://www.nngroup.com/articles/ia-vs-navigation/); [NN/g, Mental Models](https://www.nngroup.com/articles/mental-models/)
 
 ### Keep primary navigation visible
@@ -91,6 +99,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 - Use the tab bar for navigation only; put actions on the current view in a toolbar.
 
 **When it is broken.** Every top-level section reachable only through a hamburger icon, or a tab bar that holds an "add" action next to destinations.
+
+**See:** [bar charts comparing hidden, combo and visible navigation](https://www.nngroup.com/articles/hamburger-menus/#toc-hidden-navigation-leads-to-worse-user-experience-4); [iOS tab bar images and labelled diagram of a tab bar](https://developer.apple.com/design/human-interface-guidelines/tab-bars)
 
 **Sources:** [NN/g, Hamburger Menus and Hidden Navigation Hurt UX Metrics](https://www.nngroup.com/articles/hamburger-menus/); [NN/g, Basic Patterns for Mobile Navigation](https://www.nngroup.com/articles/mobile-navigation-patterns/); [Apple HIG, Tab bars](https://developer.apple.com/design/human-interface-guidelines/tab-bars)
 
@@ -105,6 +115,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 
 **When it is broken.** A tab row whose first two tabs filter a list and whose third opens a settings page.
 
+**See:** [annotated tab screenshots marked good (Google Finance) and bad (navigation mixed into tabs)](https://www.nngroup.com/articles/tabs-used-right/)
+
 **Sources:** [NN/g, Tabs, Used Right](https://www.nngroup.com/articles/tabs-used-right/)
 
 ### Disclose progressively, in no more than two levels
@@ -117,6 +129,8 @@ Each principle has four parts. **Why**: the mechanism or the evidence. **How to 
 - If you need a third level, simplify the feature set instead.
 
 **When it is broken.** Every setting on one long page, or an important everyday option buried three menus deep.
+
+**See:** [live example of a details control that reveals more help on click](https://design-system.service.gov.uk/components/details/)
 
 **Sources:** [NN/g, Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
 
@@ -135,6 +149,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A save button that gives no sign it worked, so the user taps it again.
 
+**See:** [screenshots of checkmarks, progress steps and stock or cart status messages](https://www.nngroup.com/articles/visibility-system-status/)
+
 **Sources:** [NN/g, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/); [NN/g, Visibility of System Status](https://www.nngroup.com/articles/visibility-system-status/); [Apple HIG, Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback)
 
 ### Match the user's words and world
@@ -147,6 +163,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Use real-world conventions for units, dates and signs that your audience already reads.
 
 **When it is broken.** An error that says "Sync job 0x3 failed" where the user needs "Couldn't refresh your accounts".
+
+**See:** [plain wording next to a jargon-heavy page, plus real-world metaphor examples](https://www.nngroup.com/articles/match-system-real-world/#toc-using-specific-and-familiar-language-for-users-1)
 
 **Sources:** [NN/g, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/); [NN/g, Mental Models](https://www.nngroup.com/articles/mental-models/)
 
@@ -162,6 +180,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** An "Are you sure?" dialog on every delete, which users dismiss by reflex, and no way back when they meant "no".
 
+**See:** [Gmail's undo link beside Google Calendar and Highrise delete warnings](https://alistapart.com/article/neveruseawarning/); [screenshots of undo in Word and Google Drive](https://www.nngroup.com/articles/user-control-and-freedom/#toc-support-undo-5)
+
 **Sources:** [Raskin, "Never Use a Warning When You Mean Undo", A List Apart](https://alistapart.com/article/neveruseawarning/); [NN/g, User Control and Freedom](https://www.nngroup.com/articles/user-control-and-freedom/); [NN/g, Confirmation Dialogs Can Prevent User Errors, If Not Overused](https://www.nngroup.com/articles/confirmation-dialog/); [NN/g, Cancel vs. Close](https://www.nngroup.com/articles/cancel-vs-close/); [Apple HIG, Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback)
 
 ### Be consistent inside the product and with the platform
@@ -174,6 +194,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Prefer standard platform controls and gestures; depart only with evidence that the custom one is better.
 
 **When it is broken.** "Remove" on one screen and "Delete" on another for the same action, or a back gesture that does something else on one screen.
+
+**See:** [consistent Office ribbons, shared e-commerce conventions and inconsistent button order](https://www.nngroup.com/articles/consistency-and-standards/)
 
 **Sources:** [NN/g, Maintain Consistency and Adhere to Standards](https://www.nngroup.com/articles/consistency-and-standards/); [Apple HIG, Writing](https://developer.apple.com/design/human-interface-guidelines/writing)
 
@@ -189,6 +211,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A free-text date field that accepts "31/02", "Delete account" placed next to "Save", or a privacy option that defaults to public.
 
+**See:** [screenshots of date-range constraints, search suggestions, defaults and auto-formatting](https://www.nngroup.com/articles/slips/)
+
 **Sources:** [NN/g, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/); [NN/g, The Power of Defaults](https://www.nngroup.com/articles/the-power-of-defaults/); [NN/g, Modes in User Interfaces](https://www.nngroup.com/articles/modes/)
 
 ### Prefer recognition over recall
@@ -201,6 +225,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Label icons with text unless the icon is universally understood.
 
 **When it is broken.** A form that asks for a code shown on the previous screen, or an icon-only toolbar whose meanings users must memorise.
+
+**See:** [search history and recently viewed items next to unlabeled icons](https://www.nngroup.com/articles/recognition-and-recall/#toc-promote-recognition-in-user-interfaces-4)
 
 **Sources:** [NN/g, Memory Recognition and Recall in User Interfaces](https://www.nngroup.com/articles/recognition-and-recall/); [NN/g, Minimize Cognitive Load](https://www.nngroup.com/articles/minimize-cognitive-load/)
 
@@ -217,6 +243,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A tiny "Next" link in a corner while the large area next to it does nothing.
 
+**See:** [diagrams of target distance and size, screen-edge targets and menu placement](https://www.nngroup.com/articles/fitts-law/#toc-applications-to-ux-4)
+
 **Sources:** [NN/g, Fitts's Law and Its Applications in UX](https://www.nngroup.com/articles/fitts-law/); [Fitts, 1954, "The information capacity of the human motor system in controlling the amplitude of movement", Journal of Experimental Psychology 47(6)](https://doi.org/10.1037/h0055392) (publisher page; full text behind a paywall)
 
 ### Cut and rank the choices where speed matters (Hick's law)
@@ -230,6 +258,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A settings page of forty toggles with equal weight, or a menu where the common choice sits among twenty rare ones.
 
+**See:** [Hick's law summary with a Slack onboarding example](https://lawsofux.com/hicks-law/)
+
 **Sources:** [Hick, 1952, "On the rate of gain of information", Quarterly Journal of Experimental Psychology 4(1)](https://doi.org/10.1080/17470215208416600) (publisher page; full text behind a paywall); [Laws of UX, Hick's Law](https://lawsofux.com/hicks-law/) (secondary summary, cited because the paper is not freely readable)
 
 ### Make interactive elements look interactive
@@ -242,6 +272,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Never style static text like a link or a button.
 
 **When it is broken.** A row of grey text labels where some are tappable and some are not, with no visible difference.
+
+**See:** [strong and weak signifier versions side by side, with eye-tracking heatmaps](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/); [quiz screenshot asking what is clickable, plus buttons that are and are not buttons](https://www.nngroup.com/articles/clickable-elements/)
 
 **Sources:** [Norman, The Design of Everyday Things, Revised and Expanded Edition (author's page)](https://jnd.org/books/the-design-of-everyday-things-revised-and-expanded-edition/); [NN/g, Beyond Blue Links: Making Clickable Elements Recognizable](https://www.nngroup.com/articles/clickable-elements/); [NN/g, Flat UI Elements Attract Less Attention and Cause Uncertainty](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/)
 
@@ -257,6 +289,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A modal alert for "Settings saved", or a silent failure on an action that lost the user's input.
 
+**See:** [comparison chart and screenshots of indicators, validations, and passive or intrusive notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)
+
 **Sources:** [Apple HIG, Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback); [Apple HIG, Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons); [NN/g, Indicators, Validations, and Notifications](https://www.nngroup.com/articles/indicators-validations-notifications/)
 
 ### Group by proximity and separate by space
@@ -269,6 +303,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Use space before adding borders or boxes to separate groups.
 
 **When it is broken.** A label equidistant from two fields, so users fill in the wrong one.
+
+**See:** [dot-grid diagram and a form shown as one block and as three groups](https://www.nngroup.com/articles/gestalt-proximity/)
 
 **Sources:** [NN/g, Proximity Principle in Visual Design](https://www.nngroup.com/articles/gestalt-proximity/); [NN/g, Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/)
 
@@ -285,6 +321,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A list that renders correctly with ten items but shows a blank white area with zero and overflows with a long name.
 
+**See:** [UI stack diagram of the ideal, empty, error, partial and loading states, with app examples](https://www.scotthurff.com/posts/why-your-user-interface-is-awkward-youre-ignoring-the-ui-stack/#theuistack)
+
 **Sources:** [NN/g, Designing Empty States in Complex Applications](https://www.nngroup.com/articles/empty-state-interface-design/); [Apple HIG, Loading](https://developer.apple.com/design/human-interface-guidelines/loading); [web.dev, Offline UX design guidelines](https://web.dev/articles/offline-ux-design-guidelines)
 
 ### Make an empty state explain itself and lead to the next step
@@ -297,6 +335,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Keep it short and in the same visual language as the filled state.
 
 **When it is broken.** "No data" on a fresh account, with no hint of how to add any.
+
+**See:** [a blank panel next to one with a message and a getting-started action](https://www.nngroup.com/articles/empty-state-interface-design/)
 
 **Sources:** [NN/g, Designing Empty States in Complex Applications](https://www.nngroup.com/articles/empty-state-interface-design/)
 
@@ -312,6 +352,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A full-screen spinner for half a second on every screen change, or an indefinite spinner on a two-minute import.
 
+**See:** [looped spinners, percent-done bars and a static indicator to avoid](https://www.nngroup.com/articles/progress-indicators/); [images of determinate bars and indeterminate spinners](https://developer.apple.com/design/human-interface-guidelines/progress-indicators)
+
 **Sources:** [NN/g, Progress Indicators Make a Slow System Less Insufferable](https://www.nngroup.com/articles/progress-indicators/); [NN/g, Skeleton Screens 101](https://www.nngroup.com/articles/skeleton-screens/); [Apple HIG, Loading](https://developer.apple.com/design/human-interface-guidelines/loading); [Apple HIG, Progress indicators](https://developer.apple.com/design/human-interface-guidelines/progress-indicators)
 
 ### Say what went wrong, why, and how to fix it
@@ -326,6 +368,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** "An error occurred." in a toast that disappears, with the form emptied.
 
+**See:** [good and bad error-message screenshots, each labelled](https://www.nngroup.com/articles/error-message-guidelines/); [live example of an error message under a field](https://design-system.service.gov.uk/components/error-message/)
+
 **Sources:** [NN/g, Error-Message Guidelines](https://www.nngroup.com/articles/error-message-guidelines/); [Apple HIG, Feedback](https://developer.apple.com/design/human-interface-guidelines/feedback); [web.dev, Offline UX design guidelines](https://web.dev/articles/offline-ux-design-guidelines)
 
 ### Label data that is old or incomplete
@@ -339,6 +383,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Never show zero, or an empty chart, for "unknown".
 
 **When it is broken.** A total that silently omits one source that failed to sync, displayed as if complete.
+
+**See:** [app screenshots of an out-of-date notice, an updated notice and an offline status](https://web.dev/articles/offline-ux-design-guidelines#inform-improve)
 
 **Sources:** [web.dev, Offline UX design guidelines](https://web.dev/articles/offline-ux-design-guidelines); [NN/g, Visibility of System Status](https://www.nngroup.com/articles/visibility-system-status/)
 
@@ -355,6 +401,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A sign-up that asks for address and birthday before the user has seen any value, or a second form asking again for the email given on the first.
 
+**See:** [live examples of one-question pages](https://design-system.service.gov.uk/patterns/question-pages/#start-by-asking-one-question-per-page); [a long form next to a step-by-step wizard](https://www.nngroup.com/articles/wizards/)
+
 **Sources:** [GOV.UK Service Manual, Designing good questions](https://www.gov.uk/service-manual/design/designing-good-questions); [GOV.UK Design System, Question pages](https://design-system.service.gov.uk/patterns/question-pages/); [NN/g, Wizards](https://www.nngroup.com/articles/wizards/); [W3C, Understanding SC 3.3.7 Redundant Entry](https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html)
 
 ### Keep labels visible; never use a placeholder as the label
@@ -367,6 +415,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Use a single-column layout.
 
 **When it is broken.** A login form whose only labels are grey "Email" and "Password" placeholders.
+
+**See:** [form fields ranked worst to best: placeholder as label, floating label, label outside the field](https://www.nngroup.com/articles/form-design-placeholders/)
 
 **Sources:** [NN/g, Placeholders in Form Fields Are Harmful](https://www.nngroup.com/articles/form-design-placeholders/); [NN/g, Website Forms Usability: Top 10 Recommendations](https://www.nngroup.com/articles/web-form-design/); [Apple HIG, Text fields](https://developer.apple.com/design/human-interface-guidelines/text-fields); [W3C, Understanding SC 3.3.2 Labels or Instructions](https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html)
 
@@ -381,6 +431,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A dropdown with two items, or a calendar picker for a date of birth that starts at today.
 
+**See:** [two forms compared, with steppers, segmented controls and buttons in place of dropdowns](https://www.lukew.com/ff/1950/dropdowns-should-be-the-ui-of-last-resort); [date pickers and date fields that work well or poorly](https://www.nngroup.com/articles/date-input/)
+
 **Sources:** [Wroblewski, Dropdowns Should be the UI of Last Resort](https://www.lukew.com/ff/1950/dropdowns-should-be-the-ui-of-last-resort); [NN/g, Date-Input Form Fields](https://www.nngroup.com/articles/date-input/); [GOV.UK Design System, Dates](https://design-system.service.gov.uk/patterns/dates/)
 
 ### Point to each error at the field and say how to fix it
@@ -394,6 +446,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Write the message as the fix ("Enter a date in the past"), not as blame ("Invalid input").
 
 **When it is broken.** A red border on one field among twenty with no text, after the page scrolled back to the top.
+
+**See:** [live example of an error summary that links to each field in error](https://design-system.service.gov.uk/components/error-summary/); [inline errors, a top summary plus field errors, and hidden tooltip errors](https://www.nngroup.com/articles/errors-forms-design-guidelines/#toc-3-keep-error-messages-next-to-fields-4)
 
 **Sources:** [NN/g, 10 Design Guidelines for Reporting Errors in Forms](https://www.nngroup.com/articles/errors-forms-design-guidelines/); [GOV.UK Design System, Error message](https://design-system.service.gov.uk/components/error-message/); [GOV.UK Design System, Error summary](https://design-system.service.gov.uk/components/error-summary/); [W3C, Understanding SC 3.3.1 Error Identification](https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html)
 
@@ -412,6 +466,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** "Authentication credentials could not be validated" for "Wrong password", or a notice that opens "Please note that, in accordance with our updated policy," before it says what changed.
 
+**See:** [eye-tracking heatmaps of F-shaped scanning](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/#toc-the-f-shaped-pattern-2)
+
 **Sources:** [NN/g, Plain Language Is for Everyone, Even Experts](https://www.nngroup.com/articles/plain-language-experts/); [Digital.gov, Plain language guide series](https://digital.gov/guides/plain-language); [Apple HIG, Writing](https://developer.apple.com/design/human-interface-guidelines/writing); [NN/g, How Users Read on the Web](https://www.nngroup.com/articles/how-users-read-on-the-web/); [NN/g, F-Shaped Pattern of Reading](https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/)
 
 ### Label actions with verbs that say what will happen
@@ -424,6 +480,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Make the label match the outcome: the button that deletes says "Delete".
 
 **When it is broken.** A dialog asking "Discard changes?" with buttons "OK" and "Cancel", where "Cancel" keeps the changes.
+
+**See:** [ambiguous X buttons next to explicit Cancel, Reset, Apply and Save & close labels](https://www.nngroup.com/articles/cancel-vs-close/#toc-2-use-explicit-labels-3)
 
 **Sources:** [Apple HIG, Writing](https://developer.apple.com/design/human-interface-guidelines/writing); [NN/g, Cancel vs. Close](https://www.nngroup.com/articles/cancel-vs-close/)
 
@@ -439,6 +497,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Do not show decimals that carry no information (75, not 75.00, unless cents matter).
 
 **When it is broken.** "1250", "1.3k" and "1,250.00" for comparable values on the same screen, none of them with a unit.
+
+**See:** [do and don't examples for numerals, thousands separators, units and currency](https://designsystem.wfp.org/docs/guidelines/numbers#use-numerals)
 
 **Sources:** [NN/g, Show Numbers as Numerals When Writing for Online Readers](https://www.nngroup.com/articles/web-writing-show-numbers-as-numerals/); [GOV.UK, A to Z style guide (Numbers, Money)](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/)
 
@@ -456,6 +516,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** Cards that bounce in one by one every time a list opens, delaying the content without telling the user anything.
 
+**See:** [videos of animation that explains a change and animation that only distracts](https://www.nngroup.com/articles/animation-usability/#toc-goal-animation-to-aid-comprehension-and-understanding-2); [animated GIFs of container transform, shared axis and fade transitions](https://github.com/material-components/material-components-android/blob/master/docs/theming/Motion.md)
+
 **Sources:** [NN/g, Animation for Attention and Comprehension](https://www.nngroup.com/articles/animation-usability/); [Apple HIG, Motion](https://developer.apple.com/design/human-interface-guidelines/motion)
 
 ### Keep durations short: about 100 ms for feedback, up to about 500 ms for large moves
@@ -469,6 +531,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Never make the user wait for an animation before they can act; let input interrupt it.
 
 **When it is broken.** A 600 ms fade on every button press, or a page transition that blocks taps until it finishes.
+
+**See:** [animation timeline graphic and timed example videos](https://www.nngroup.com/articles/animation-duration/#toc-animation-duration-3)
 
 **Sources:** [NN/g, Executing UX Animations: Duration and Motion Characteristics](https://www.nngroup.com/articles/animation-duration/); [Material Components for Android, Motion theming (duration and easing tokens)](https://github.com/material-components/material-components-android/blob/master/docs/theming/Motion.md); [Apple HIG, Motion](https://developer.apple.com/design/human-interface-guidelines/motion)
 
@@ -484,6 +548,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A sheet that slides in at constant speed and stops dead, or one that starts slowly and makes the tap feel ignored.
 
+**See:** [linear, ease-out, ease-in and ease-in-out curves](https://web.dev/articles/the-basics-of-easing); [video comparing linear and eased motion](https://www.nngroup.com/articles/animation-duration/#toc-easing-makes-motion-feel-more-natural-4)
+
 **Sources:** [NN/g, Executing UX Animations: Duration and Motion Characteristics](https://www.nngroup.com/articles/animation-duration/); [Material Components for Android, Motion theming](https://github.com/material-components/material-components-android/blob/master/docs/theming/Motion.md)
 
 ### Honour the reduced-motion setting
@@ -496,6 +562,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Test every screen with the setting on; nothing should break or become ambiguous.
 
 **When it is broken.** A parallax header and a zooming transition that still run with Reduce Motion turned on.
+
+**See:** [OS reduce-motion settings and a demo video of the same page with and without motion](https://web.dev/articles/prefers-reduced-motion#demo)
 
 **Sources:** [MDN, prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion); [Apple HIG, Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility); [W3C, Understanding SC 2.3.3 Animation from Interactions](https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html); [W3C, Understanding SC 2.2.2 Pause, Stop, Hide](https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html)
 
@@ -513,6 +581,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A button that does nothing visible for 400 ms after a tap, so the user taps again and submits twice.
 
+**See:** [video of a slow and a responsive accordion, the INP thresholds, and a diagram of an interaction](https://web.dev/articles/inp)
+
 **Sources:** [NN/g, Response Time Limits](https://www.nngroup.com/articles/response-times-3-important-limits/); [web.dev, Interaction to Next Paint (INP)](https://web.dev/articles/inp); [NN/g, The Need for Speed](https://www.nngroup.com/articles/the-need-for-speed/)
 
 ### Show content as soon as you have it, not a spinner
@@ -526,6 +596,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Use a skeleton of the actual layout rather than a generic spinner for waits of a few seconds.
 
 **When it is broken.** A blank screen with a centred spinner while the app fetches data it already displayed a minute ago.
+
+**See:** [LinkedIn, Headspace and DoorDash skeleton screens](https://www.nngroup.com/articles/skeleton-screens/); [a skeleton layout next to the loaded article](https://web.dev/articles/offline-ux-design-guidelines#feedback)
 
 **Sources:** [Apple HIG, Loading](https://developer.apple.com/design/human-interface-guidelines/loading); [Wroblewski, Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/1797/mobile-design-details-avoid-the-spinner); [NN/g, Skeleton Screens 101](https://www.nngroup.com/articles/skeleton-screens/)
 
@@ -542,6 +614,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A row of 20 pt icon buttons packed together in a toolbar, each tap a gamble.
 
+**See:** [tap targets that are too small or too crowded, next to large ones](https://www.nngroup.com/articles/touch-target-size/); [playback buttons with enough padding and with too little](https://developer.apple.com/design/human-interface-guidelines/accessibility#Mobility)
+
 **Sources:** [Apple HIG, Buttons](https://developer.apple.com/design/human-interface-guidelines/buttons); [Apple HIG, Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility); [Android Accessibility Help, Touch target size](https://support.google.com/accessibility/android/answer/7101858); [NN/g, Touch Targets on Touchscreens](https://www.nngroup.com/articles/touch-target-size/); [W3C, Understanding SC 2.5.8 Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html); [Hoober, How Do Users Really Hold Mobile Devices?, UXmatters](https://www.uxmatters.com/mt/archives/2013/02/how-do-users-really-hold-mobile-devices.php)
 
 ### Meet contrast minimums and never rely on colour alone
@@ -555,6 +629,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Provide a higher-contrast variant when the system setting asks for it.
 
 **When it is broken.** Light grey secondary text on white, an input whose only boundary is a faint hairline, or gains and losses shown only in green and red.
+
+**See:** [buttons with sufficient and insufficient contrast, and status shown by colour plus shape](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision); [an error shown with colour and text next to one shown with colour only](https://web.dev/articles/offline-ux-design-guidelines#clear-language)
 
 **Sources:** [W3C, Understanding SC 1.4.3 Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html); [W3C, Understanding SC 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html); [W3C, Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html); [Apple HIG, Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility)
 
@@ -570,6 +646,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A custom toggle that a screen reader announces as plain text, or a search whose result count updates silently.
 
+**See:** [diagram of the accessibility tree with ARIA](https://web.dev/learn/accessibility/aria-html#the_accessibility_tree); [DevTools screenshots showing an element's computed name and role](https://developer.chrome.com/docs/devtools/accessibility/reference)
+
 **Sources:** [W3C, Understanding SC 4.1.2 Name, Role, Value](https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html); [W3C, Understanding SC 1.1.1 Non-text Content](https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html); [W3C, Understanding SC 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html); [W3C, Understanding SC 4.1.3 Status Messages](https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html); [W3C, Introduction to Web Accessibility](https://www.w3.org/WAI/fundamentals/accessibility-intro/)
 
 ### Make everything work by keyboard, with visible focus
@@ -583,6 +661,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A modal that traps or loses focus, or a CSS reset that removes focus outlines everywhere.
 
+**See:** [animated GIFs of tabbing through a page with styled focus indicators](https://web.dev/learn/accessibility/focus#focus_indicator); [W3C video of people using the web by keyboard](https://www.w3.org/WAI/perspective-videos/keyboard/)
+
 **Sources:** [W3C, Understanding SC 2.1.1 Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html); [W3C, Understanding SC 2.4.7 Focus Visible](https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html)
 
 ### Let text grow and layouts reflow
@@ -595,6 +675,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Let containers grow with their text; avoid fixed heights on anything holding text.
 
 **When it is broken.** A card whose title is cut off with an ellipsis at a larger text size, hiding the only information it held.
+
+**See:** [a Mail message at the default text size and at the largest accessibility size](https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type); [numbered pass and fail figures of pages reflowing at 320 px](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html)
 
 **Sources:** [W3C, Understanding SC 1.4.4 Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html); [W3C, Understanding SC 1.4.10 Reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html); [Apple HIG, Typography](https://developer.apple.com/design/human-interface-guidelines/typography)
 
@@ -612,6 +694,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A full redesign shipped at once, reviewed alone with "do you like this?", after which nobody can tell which change caused the drop in completion.
 
+**See:** [diagrams of iterative, parallel and competitive design](https://www.nngroup.com/articles/parallel-and-iterative-design/); [graph of usability rising with each iteration](https://www.nngroup.com/articles/iterative-design/)
+
 **Sources:** [NN/g, Iterative Design of User Interfaces](https://www.nngroup.com/articles/iterative-design/); [NN/g, Parallel & Iterative Design + Competitive Testing](https://www.nngroup.com/articles/parallel-and-iterative-design/)
 
 ### Test with about five users per round, and run more rounds
@@ -624,6 +708,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Watch what people do rather than what they say they would do.
 
 **When it is broken.** One large study at the end of the project whose findings arrive too late to change anything.
+
+**See:** [curve of usability problems found against the number of test users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
 
 **Sources:** [NN/g, Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/); [NN/g, How Many Test Users in a Usability Study?](https://www.nngroup.com/articles/how-many-test-users/); [NN/g, Thinking Aloud: The #1 Usability Tool](https://www.nngroup.com/articles/thinking-aloud-the-1-usability-tool/)
 
@@ -639,6 +725,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 
 **When it is broken.** A test stopped after two days on a lucky spike, or a "winning" variant nobody can explain.
 
+**See:** [diagram of an A/B test design and the four steps for setting one up](https://www.nngroup.com/articles/ab-testing/)
+
 **Sources:** [NN/g, A/B Testing 101](https://www.nngroup.com/articles/ab-testing/); [NN/g, Define Stronger A/B Test Variations Through UX Research](https://www.nngroup.com/articles/ab-testing-and-ux-research/); [Kohavi, Tang and Xu, Trustworthy Online Controlled Experiments (book site)](https://experimentguide.com/)
 
 ### Review against stated goals, with independent evaluators and severity ratings
@@ -652,6 +740,8 @@ Jakob Nielsen's ten heuristics are broad rules of thumb for interaction design. 
 - Treat heuristic evaluation as a complement to testing with users, not a replacement.
 
 **When it is broken.** One designer reviewing their own screens and reporting "looks fine", or a critique that ends in "I'd make it blue" with no reference to what the screen is for.
+
+**See:** [filled-in heuristic evaluation workbook pages and annotated issue screenshots](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/#toc-step-2-evaluate-independently-4)
 
 **Sources:** [NN/g, Design Critiques](https://www.nngroup.com/articles/design-critiques/); [NN/g, How to Conduct a Heuristic Evaluation](https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/); [NN/g, Severity Ratings for Usability Problems](https://www.nngroup.com/articles/how-to-rate-the-severity-of-usability-problems/); [NN/g, 10 Usability Heuristics](https://www.nngroup.com/articles/ten-usability-heuristics/)
 

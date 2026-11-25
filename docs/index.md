@@ -83,6 +83,8 @@ rule with its reasons and checks.
 - A preference carries at least one dated quote, copied verbatim from what the person said, with
   an English translation when the quote is in another language, and its strength. Link the
   principle it agrees with or departs from.
+- Give each entry a **See:** line linking a figure or live example where the reader can see the
+  rule (a before/after, a diagram, a good and a bad screen). Link only pages you have opened.
 - Before adding, search the page for the rule. Extend an existing entry rather than writing a
   second one.
 - Write for a stranger: no product names, screen names, tickets or personal data. Generalise

@@ -32,6 +32,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A chart picked from a gallery because it looks interesting, which shows the data but answers no question; a dashboard tile whose purpose nobody can state.
 
+**See:** [FT Visual Vocabulary poster: chart types grouped by the relationship to show](https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/poster.png); [chart examples sorted by purpose (change over time, shares, amounts)](https://www.datawrapper.de/blog/chart-types-guide)
+
 **Sources:** [Munzner, *Visualization Analysis and Design*](https://www.cs.ubc.ca/~tmm/vadbook/); [Datawrapper, chart types guide](https://www.datawrapper.de/blog/chart-types-guide); [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data).
 
 ### Encode the most important comparison as position on a common scale
@@ -46,6 +48,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A bubble chart used to compare totals that differ by 10%; stacked segments whose middle pieces float on different baselines, so their lengths cannot be compared.
 
+**See:** [Fig. 1 stimuli (aligned vs stacked bars, pies) and the error rankings that follow](https://homes.cs.washington.edu/~jheer/files/2010-MTurk-CHI.pdf#page=3); [Munzner slide ranking channels, position on common scale at top](https://cs.ubc.ca/~tmm/talks/vad/VAD-marks.pdf#page=23)
+
 **Sources:** [Cleveland & McGill 1984, *JASA* 79(387)](https://doi.org/10.1080/01621459.1984.10478080) (publisher page is paywalled; the ranking is restated and replicated in the next source); [Heer & Bostock 2010, Crowdsourcing Graphical Perception (CHI)](https://homes.cs.washington.edu/~jheer/files/2010-MTurk-CHI.pdf); [Munzner, VAD marks and channels slides](https://cs.ubc.ca/~tmm/talks/vad/VAD-marks.pdf).
 
 ### Match the visual channel to the type of data
@@ -59,6 +63,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A rainbow of hues for a ranking from low to high; light-to-dark shades for unrelated product lines, so readers assume the darkest is the biggest.
 
+**See:** [slide: magnitude channels for ordered data vs identity channels for categories](https://cs.ubc.ca/~tmm/talks/vad/VAD-marks.pdf#page=23); [sequential, diverging and qualitative colour schemes, each with images](https://colorbrewer2.org/learnmore/schemes_full.html)
+
 **Sources:** [Munzner, VAD marks and channels slides](https://cs.ubc.ca/~tmm/talks/vad/VAD-marks.pdf); [ColorBrewer, scheme types](https://colorbrewer2.org/learnmore/schemes_full.html).
 
 ### Prefer common chart types, and teach any new one
@@ -71,6 +77,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Test: can someone new to the product say what the chart shows within a few seconds?
 
 **When it is broken.** A radial or spiral chart for a simple weekly trend; a custom glyph whose legend has to be studied before any value can be read.
+
+**See:** [gallery of familiar chart types with example images for each task](https://www.datawrapper.de/blog/chart-types-guide); [FT poster of standard chart types, each with a mini drawing](https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/poster.png)
 
 **Sources:** [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data); [Datawrapper, chart types guide](https://www.datawrapper.de/blog/chart-types-guide).
 
@@ -86,6 +94,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A line drawn through unordered categories, implying a trend between them; 30 thin vertical columns with rotated labels on a phone.
 
+**See:** [UK guidance before/after: several time series as bars vs as lines](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/03/bar-chart-for-time-series.svg); [line and column chart examples for change over time](https://www.datawrapper.de/blog/chart-types-guide#showing-developments-over-time)
+
 **Sources:** [Apple HIG, Charts (Marks)](https://developer.apple.com/design/human-interface-guidelines/charts); [Datawrapper, chart types guide](https://www.datawrapper.de/blog/chart-types-guide).
 
 ### Avoid pie and donut charts when slices must be compared
@@ -98,6 +108,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - When slices are of similar size, or when shares must be compared across groups, use bars.
 
 **When it is broken.** A pie with nine near-equal slices and a colour legend; two pies side by side to show how shares changed.
+
+**See:** [same data as pie and as bar; small differences only show in bars](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/03/pie-versus-bar-.svg); [Few Fig. 7-8: pie chart vs bar graph of the same values](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=10)
 
 **Sources:** [Skau & Kosara 2016, Arcs, Angles, or Areas (EuroVis)](https://kosara.net/papers/2016/Skau-EuroVis-2016.pdf); [Datawrapper, chart types guide](https://www.datawrapper.de/blog/chart-types-guide); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).
 
@@ -112,6 +124,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Categories in alphabetical or database order, so the largest one hides in the middle.
 
+**See:** [bars ranked by value, largest at top](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/ranking-bars-example.svg); [Ehrenberg Tables 10-11: rows in arbitrary order vs in decreasing order](https://worrydream.com/refs/Ehrenberg_1977_-_Rudiments_of_Numeracy.pdf#page=8)
+
 **Sources:** [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).
 
 ### Do not put two unrelated scales on one chart
@@ -125,6 +139,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Two lines that cross at the "moment of change" only because the right axis was stretched.
 
+**See:** [dual-axis charts that mislead, then side-by-side and indexed alternatives](https://www.datawrapper.de/blog/dualaxis#the-problems-with-dual-axis-charts); [same two series made to tell opposite stories by moving the axes](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2023/01/dual-axis-manipulation-1.svg)
+
 **Sources:** [Datawrapper, Why not to use two axes](https://www.datawrapper.de/blog/dualaxis); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/); [ONS Service Manual, Small multiple charts](https://service-manual.ons.gov.uk/data-visualisation/chart-types/small-multiple-charts).
 
 ### Do not add 3D, shadows or other visual effects to data marks
@@ -136,6 +152,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - No gradients inside bars, no drop shadows, no bevels, no perspective tilt.
 
 **When it is broken.** A 3D pie whose front slice looks largest; bars with gradient fills whose tops look a different value than their bottoms.
+
+**See:** [3D chart examples that distort the values](https://en.wikipedia.org/wiki/Misleading_graph#3D)
 
 **Sources:** [Munzner, VAD marks and channels slides](https://cs.ubc.ca/~tmm/talks/vad/VAD-marks.pdf); [Few 2008, Practical Rules for Using Color in Charts](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf).
 
@@ -152,6 +170,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Two bars of 52 and 55 drawn as if one were twice the other.
 
+**See:** [Few Fig. 11: bars on a non-zero axis make revenue look 4x costs](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=12); [Correll et al. Fig. 1: truncated y-axis charts, including a Fox News bar chart](https://arxiv.org/pdf/1907.02035#page=2)
+
 **Sources:** [Correll, Bertini & Franconeri 2020, Truncating the Y-Axis: Threat or Menace? (CHI)](https://arxiv.org/abs/1907.02035); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/); [Apple HIG, Charts (Axes)](https://developer.apple.com/design/human-interface-guidelines/charts).
 
 ### Set a line chart's range to show meaningful variation, and say where it starts
@@ -164,6 +184,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Keep the same range when comparing periods or people, so the slope means the same thing each time.
 
 **When it is broken.** A line auto-scaled to its own minimum and maximum, so a 0.3% wobble fills the whole chart height and reads as a crash.
+
+**See:** [before: zero-based line chart that hides the trend](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/immunisation-chart-before.svg); [after: broken y-axis, marked and annotated, showing the variation](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/Immunisation-chart-improved-again.svg)
 
 **Sources:** [Apple HIG, Charts (Axes)](https://developer.apple.com/design/human-interface-guidelines/charts); [Correll, Bertini & Franconeri 2020](https://arxiv.org/abs/1907.02035); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).
 
@@ -191,6 +213,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Ticks at 13, 26, 39; dark gridlines as heavy as the data line.
 
+**See:** [before/after: dense dark gridlines vs fewer, lighter ones](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/gridlines-example.svg); [tick mark examples from UK charts guidance](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/03/Tick-marks.svg)
+
 **Sources:** [Apple HIG, Charts (Axes)](https://developer.apple.com/design/human-interface-guidelines/charts); [Heer & Bostock 2010](https://homes.cs.washington.edu/~jheer/files/2010-MTurk-CHI.pdf); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).
 
 ### Choose an aspect ratio that makes slopes readable
@@ -203,6 +227,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - On a phone, a full-width chart is often too flat; give it more height or fewer periods.
 
 **When it is broken.** A year of data squeezed into a short strip so every change looks flat; a narrow tall chart that turns small noise into spikes.
+
+**See:** [same line chart tall vs wide: slope looks steep vs flat](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/line-chart-aspect-ratio.svg); [Heer & Agrawala banking-to-45-degrees figure (CO2 series)](https://idl.uw.edu/papers/banking)
 
 **Sources:** [Heer & Agrawala 2006, Multi-Scale Banking to 45 Degrees (InfoVis)](https://idl.uw.edu/papers/banking); [Tufte, Sparkline theory and practice](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/).
 
@@ -219,6 +245,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A default spreadsheet chart: boxed, gridded, shaded, with a legend for a single series.
 
+**See:** [cluttered graph and its decluttered makeover](https://www.storytellingwithdata.com/blog/2017/3/29/declutter-this-graph); [animated GIF stripping a bar chart step by step](https://darkhorsevisualization.com/blog/data-looks-better-naked)
+
 **Sources:** [Tufte, *The Visual Display of Quantitative Information*](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/); [Schwabish 2014, An Economist's Guide to Visualizing Data, *JEP* 28(1)](https://www.aeaweb.org/articles?id=10.1257/jep.28.1.209) (full text was not reachable when this page was written; the three guideline names are as listed in [Kasy's course slides](https://maxkasy.github.io/home/files/teaching/TopicsEconometrics2019/DataVisualization-Slides.pdf), a secondary source); [Knaflic, Declutter this graph](https://www.storytellingwithdata.com/blog/2017/3/29/declutter-this-graph).
 
 ### Make supporting elements just visible enough
@@ -231,6 +259,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Text that is less important (source, notes) is small and grey, but must still meet contrast requirements.
 
 **When it is broken.** Gridlines and axis labels in the same dark colour and weight as the data line.
+
+**See:** [busy chart vs simple one with muted axes and gridlines](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/03/Keep-it-simple.svg); [Few Rule 7 examples: non-data elements faint, data prominent](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf#page=10)
 
 **Sources:** [Few 2008, Practical Rules for Using Color in Charts (Rule 7)](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf); [Apple HIG, Charts (Best practices)](https://developer.apple.com/design/human-interface-guidelines/charts).
 
@@ -245,6 +275,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Use imagery for charts that must be remembered (a one-off story), not for charts used daily to check values.
 
 **When it is broken.** A large illustration behind the bars that hides gridlines and makes the bar ends hard to find; a striking custom chart that people remember seeing but cannot tell you anything from.
+
+**See:** [Bateman Fig. 1: Holmes illustrated chart beside a plain version](https://vis.csail.mit.edu/classes/6.859/readings/pdfs/Bateman-UsefulJunk.pdf#page=1); [Borkin et al. project page with example visualization figure](https://vcg.seas.harvard.edu/publications/20130101-what-makes-a-visualization-memorable)
 
 **Sources:** [Bateman et al. 2010, Useful Junk? (CHI)](https://vis.csail.mit.edu/classes/6.859/readings/pdfs/Bateman-UsefulJunk.pdf); [Haroz, Kosara & Franconeri 2015, ISOTYPE Visualization (CHI)](https://tableau.com/sites/default/files/2023-01/Haroz_CHI_2015.pdf); [Borkin et al. 2013, What Makes a Visualization Memorable? (InfoVis)](https://vcg.seas.harvard.edu/publications/20130101-what-makes-a-visualization-memorable).
 
@@ -261,6 +293,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Each bar of a single series in a different colour; "blue" meaning revenue on one chart and cost on the next.
 
+**See:** [Datawrapper not-ideal/better chart pairs on when colour helps](https://www.datawrapper.de/blog/colors#when-to-use-colors-in-data-visualization); [Few Fig. 15: gratuitous colour on bars](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=16)
+
 **Sources:** [Few 2008, Practical Rules for Using Color in Charts (Rules 3 and 4)](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf); [Datawrapper, What to consider when choosing colors](https://www.datawrapper.de/blog/colors); [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data).
 
 ### Pick the palette type from the data: sequential, diverging or categorical
@@ -273,6 +307,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Categories: distinct hues of similar lightness.
 
 **When it is broken.** A diverging red-blue scheme on data with no midpoint, so readers see a "good" and "bad" half that does not exist.
+
+**See:** [ColorBrewer sequential, diverging and qualitative scheme images](https://colorbrewer2.org/learnmore/schemes_full.html); [Crameri Fig. 5: colour map classes and types](https://www.nature.com/articles/s41467-020-19160-7#Fig5)
 
 **Sources:** [ColorBrewer, scheme types](https://colorbrewer2.org/learnmore/schemes_full.html); [Few 2008 (Rule 6)](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf); [Datawrapper, choosing colors](https://www.datawrapper.de/blog/colors).
 
@@ -287,6 +323,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A heat map where a band of bright yellow in the middle of a rainbow scale reads as a sharp edge in smooth data.
 
+**See:** [Crameri Fig. 1: same data in rainbow vs scientific colour maps](https://www.nature.com/articles/s41467-020-19160-7#Fig1); [Crameri Fig. 4: perceptual uniformity and order compared](https://www.nature.com/articles/s41467-020-19160-7#Fig4)
+
 **Sources:** [Crameri, Shephard & Heron 2020, The misuse of colour in science communication (*Nature Communications*)](https://www.nature.com/articles/s41467-020-19160-7).
 
 ### Keep context grey and spend one strong colour on the point
@@ -300,6 +338,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Eight equally bright series, so the one the title talks about is not where the eye goes.
 
+**See:** [Knaflic example: grey context, one highlighted series](https://www.storytellingwithdata.com/blog/whereareyoureyesdrawn); [UK focus chart: eight lines, one in colour, rest grey](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2023/05/focus_chart_8_lines_no_tick.svg)
+
 **Sources:** [Few 2008 (Rule 5)](https://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf); [Knaflic, Where are your eyes drawn?](https://www.storytellingwithdata.com/blog/whereareyoureyesdrawn); [Few 2006, Common Pitfalls in Dashboard Design (Pitfall 10)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf); [Datawrapper, choosing colors](https://www.datawrapper.de/blog/colors).
 
 ### Limit the number of categorical colours
@@ -311,6 +351,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Do not cycle a palette so two categories share a colour.
 
 **When it is broken.** Twelve coloured lines with a twelve-entry legend.
+
+**See:** [bad example: eight coloured lines that cannot be told apart](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/8-line-chart-new-colours.svg); [Datawrapper example on using fewer colours](https://www.datawrapper.de/blog/colorblindness-part2#fewer-colors)
 
 **Sources:** [Datawrapper, choosing colors](https://www.datawrapper.de/blog/colors); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/).
 
@@ -325,6 +367,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Put separators between adjacent filled areas such as stacked segments (Apple HIG).
 
 **When it is broken.** "Over budget" shown only in red and "under" only in green, at the same lightness, with no label or sign.
+
+**See:** [symbols, shapes, dashes and direct labels besides colour](https://www.datawrapper.de/blog/colorblindness-part2#symbols); [direct labels so colourblind readers need no colour key](https://www.datawrapper.de/blog/colorblindness-part2#direct-labels)
 
 **Sources:** [W3C, Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html); [W3C, Understanding SC 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html); [Datawrapper, visualizing data for colorblind readers](https://www.datawrapper.de/blog/colorblindness-part2); [Crameri et al. 2020](https://www.nature.com/articles/s41467-020-19160-7); [Apple HIG, Charts (Color)](https://developer.apple.com/design/human-interface-guidelines/charts); [ColorBrewer (colourblind-safe filter)](https://colorbrewer2.org/).
 
@@ -342,6 +386,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** "Monthly spending, Jan to Dec" above a chart whose point is a drop in March that the reader has to find alone.
 
+**See:** [real chart titles with example images (Bloomberg, Economist)](https://data.europa.eu/apps/data-visualisation-guide/guidelines-for-visualisation-titles); [UK example chart titled with its finding: 'Oliver stays on top of baby names list'](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/#section-7)
+
 **Sources:** [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/); [data.europa.eu, Guidelines for visualisation titles](https://data.europa.eu/apps/data-visualisation-guide/guidelines-for-visualisation-titles); [Datawrapper, text in data visualizations](https://www.datawrapper.de/blog/text-in-data-visualizations); [Apple HIG, Charts (Descriptive content)](https://developer.apple.com/design/human-interface-guidelines/charts).
 
 ### Make the title say only what the data supports
@@ -354,6 +400,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - When the data is weak (few points, high noise), say so in the title or subtitle.
 
 **When it is broken.** "Savings habit is working" over two months of data that rose once.
+
+**See:** [Kong et al. Fig. 1: same data under titles slanted opposite ways](https://mail.zcliu.cs.umd.edu/vistitles/CHI18-VisTitles.pdf#page=1)
 
 **Sources:** [Kong, Liu & Karahalios 2018, Frames and Slants in Titles of Visualizations on Controversial Topics (CHI)](https://mail.zcliu.cs.umd.edu/vistitles/CHI18-VisTitles.pdf); [data.europa.eu, Guidelines for visualisation titles](https://data.europa.eu/apps/data-visualisation-guide/guidelines-for-visualisation-titles).
 
@@ -369,6 +417,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A legend box in a corner with five colour swatches for five lines that cross each other.
 
+**See:** [not ideal vs better: legend vs labels beside the lines](https://www.datawrapper.de/blog/text-in-data-visualizations#label-directly); [UK line chart with labels at line ends](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/07/line-chart-four-lines.svg)
+
 **Sources:** [Datawrapper, text in data visualizations](https://www.datawrapper.de/blog/text-in-data-visualizations); [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/); [Datawrapper, colorblind readers](https://www.datawrapper.de/blog/colorblindness-part2).
 
 ### Annotate the points that explain the pattern
@@ -381,6 +431,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - On small screens, drop the least important notes or move them below the chart.
 
 **When it is broken.** A spike with no note, so readers guess whether it is real, a data error, or a one-off.
+
+**See:** [chart examples with explaining annotations](https://www.datawrapper.de/blog/text-in-data-visualizations#emphasize-and-explain-with-annotations)
 
 **Sources:** [Datawrapper, text in data visualizations](https://www.datawrapper.de/blog/text-in-data-visualizations); [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data); [Schwabish 2014, *JEP*](https://www.aeaweb.org/articles?id=10.1257/jep.28.1.209).
 
@@ -397,6 +449,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A large headline number with no target, history or range, so the reader cannot tell if action is needed.
 
+**See:** [bullet graphs: value against target and qualitative ranges](https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf#page=2); [Few Fig. 3: gauge with no useful context (bad example)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=7)
+
 **Sources:** [Few 2006, Common Pitfalls in Dashboard Design (Pitfall 2)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf); [Few, Bullet Graph Design Specification](https://www.perceptualedge.com/articles/misc/Bullet_Graph_Design_Spec.pdf).
 
 ### Show the difference directly when the difference is the point
@@ -409,6 +463,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Keep the two raw values available on demand.
 
 **When it is broken.** Two bars per category labelled "plan" and "actual", with the over- or under-spend left for mental arithmetic.
+
+**See:** [Few Fig. 5-6: actual vs budget bars, then the variance plotted directly](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=9)
 
 **Sources:** [Few 2006, Common Pitfalls in Dashboard Design (Pitfall 4)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf).
 
@@ -423,6 +479,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A wavy line with no sense of whether this week's value is ordinary or extreme.
 
+**See:** [Tufte glucose sparkline with a grey normal-range band](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/#comment-3230); [temperature ranges drawn over grey average-range bars on a phone](https://www.microsoft.com/en-us/research/publication/visualizing-ranges-over-time-on-mobile-phones-a-task-based-crowdsourced-evaluation/)
+
 **Sources:** [Tufte, Sparkline theory and practice](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/); [Brehmer et al. 2019, Visualizing Ranges over Time on Mobile Phones (TVCG)](https://www.microsoft.com/en-us/research/publication/visualizing-ranges-over-time-on-mobile-phones-a-task-based-crowdsourced-evaluation/).
 
 ### Split tangled series into small multiples with shared scales
@@ -436,6 +494,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Keep to about 12 panels or fewer; on a phone, fewer.
 
 **When it is broken.** Panels with independent y-axes, so a small change in one panel looks as large as a big change in another.
+
+**See:** [the eight-line chart split into small multiples](https://analysisfunction.civilservice.gov.uk/wp-content/uploads/2022/05/small-multis-square.svg); [Datawrapper small multiple line chart examples](https://www.datawrapper.de/blog/what-to-consider-when-creating-small-multiple-line-charts#example-of-a-good-small-multiple-line-chart)
 
 **Sources:** [Tufte, *Envisioning Information*](https://www.edwardtufte.com/book/envisioning-information/); [Datawrapper, small multiple line charts](https://www.datawrapper.de/blog/what-to-consider-when-creating-small-multiple-line-charts); [ONS Service Manual, Small multiple charts](https://service-manual.ons.gov.uk/data-visualisation/chart-types/small-multiple-charts).
 
@@ -452,6 +512,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A projected month-end figure shown as one exact number with no range.
 
+**See:** [Kay et al. figure: bus arrival as a quantile dotplot](https://idl.uw.edu/papers/when-ish-is-my-bus); [figure comparing error bars, violins and hypothetical outcome plots](https://idl.uw.edu/papers/hops)
+
 **Sources:** [Kay et al. 2016, When(ish) is My Bus? (CHI)](https://idl.uw.edu/papers/when-ish-is-my-bus); [Hullman, Resnick & Adar 2015, Hypothetical Outcome Plots (PLOS ONE)](https://idl.uw.edu/papers/hops).
 
 ### Do not draw a distribution as a bar with an error bar
@@ -463,6 +525,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Explain the interval in words next to the chart.
 
 **When it is broken.** A tall bar with a thin whisker, read as "the true value is somewhere in the bar".
+
+**See:** [Correll & Gleicher Fig. 1: bar with error bar vs three other encodings](https://graphics.cs.wisc.edu/Papers/2014/CG14/Preprint.pdf#page=1)
 
 **Sources:** [Correll & Gleicher 2014, Error Bars Considered Harmful (InfoVis)](https://graphics.cs.wisc.edu/Papers/2014/CG14/Preprint.pdf).
 
@@ -477,6 +541,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - In text, write "no data" rather than "0".
 
 **When it is broken.** A sync failure that shows as a day of zero activity, dragging the weekly average down.
+
+**See:** [line and bar charts with gaps and imputed values marked](https://cmci.colorado.edu/visualab/MissingData)
 
 **Sources:** [Song & Szafir 2019, Where's My Data? Evaluating Visualizations with Missing Data (TVCG)](https://par.nsf.gov/servlets/purl/10111567); [project page](https://cmci.colorado.edu/visualab/MissingData).
 
@@ -494,6 +560,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A tiny line with no number, so the reader sees "up" but not from what or to what.
 
+**See:** [Tufte's sparklines set in text, ending value marked in red](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/)
+
 **Sources:** [Tufte, Sparkline theory and practice](https://www.edwardtufte.com/notebook/sparkline-theory-and-practice-edward-tufte/).
 
 ### Give a chart enough height for the comparison it supports
@@ -506,6 +574,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - If space is short, show fewer periods rather than squeezing all of them.
 
 **When it is broken.** A dashboard tile where bars differ by one or two pixels and the reader is expected to rank them.
+
+**See:** [Heer & Bostock Fig. 10-11: charts at different heights and the resulting errors](https://homes.cs.washington.edu/~jheer/files/2010-MTurk-CHI.pdf#page=6)
 
 **Sources:** [Heer & Bostock 2010](https://homes.cs.washington.edu/~jheer/files/2010-MTurk-CHI.pdf); [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data).
 
@@ -521,6 +591,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A desktop chart scaled down so labels overlap and rotate, with the y-axis labels taking a third of the width.
 
+**See:** [desktop vs mobile versions of the same visualization, restacked vertically](https://www.visualcinnamon.com/2019/04/mobile-vs-desktop-dataviz/#stack-vertically); [linear vs radial range charts at phone size](https://www.microsoft.com/en-us/research/publication/visualizing-ranges-over-time-on-mobile-phones-a-task-based-crowdsourced-evaluation/)
+
 **Sources:** [Brehmer et al. 2019 (TVCG)](https://www.microsoft.com/en-us/research/publication/visualizing-ranges-over-time-on-mobile-phones-a-task-based-crowdsourced-evaluation/); [Apple HIG, Charts (Best practices)](https://developer.apple.com/design/human-interface-guidelines/charts); [Datawrapper, chart types guide](https://www.datawrapper.de/blog/chart-types-guide).
 
 ### Do not hide critical information behind interaction
@@ -533,6 +605,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Make the whole plot area the touch target for scrubbing, rather than each tiny mark.
 
 **When it is broken.** A chart whose only label appears on hover, on a phone with no hover.
+
+**See:** [tabs, drop-downs and sliders that hide content, then the alternatives](https://www.datawrapper.de/academy/our-explanatory-approach#if-the-content-is-hidden-readers-won-t-see-it)
 
 **Sources:** [Apple HIG, Charts (Best practices)](https://developer.apple.com/design/human-interface-guidelines/charts).
 
@@ -549,6 +623,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** Ten tiles of equal weight in bright colours, each with a different chart type and six-digit precision; a metric shown as a green line on the summary and as blue bars on its detail page.
 
+**See:** [Few Fig. 2: dashboard split across many screens](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=6); [Few Fig. 13: everything prominent, nothing stands out](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf#page=14)
+
 **Sources:** [Few 2006, Common Pitfalls in Dashboard Design (Pitfalls 1, 3, 10, 11)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf); [Apple HIG, Charting data](https://developer.apple.com/design/human-interface-guidelines/charting-data).
 
 ## Numbers in text
@@ -563,6 +639,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Drop trailing zeros that add no meaning; Datawrapper's example is 27% rather than 27.0%.
 
 **When it is broken.** "+3.4718%" on a summary card.
+
+**See:** [not ideal vs better: 27.01% and 15,373 rounded to 27% and 15.4k](https://www.datawrapper.de/blog/text-in-data-visualizations#choose-a-suitable-number-format); [Ehrenberg Table 6 original vs Table 7 rounded](https://worrydream.com/refs/Ehrenberg_1977_-_Rudiments_of_Numeracy.pdf#page=5)
 
 **Sources:** [Ehrenberg 1977, Rudiments of Numeracy, *JRSS A* 140(3)](https://worrydream.com/refs/Ehrenberg_1977_-_Rudiments_of_Numeracy.pdf) ([DOI](https://doi.org/10.2307/2344922)); [Few 2006, Common Pitfalls (Pitfall 3)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf); [ONS Service Manual, Rounding](https://service-manual.ons.gov.uk/content/numbers/rounding); [Datawrapper, text in data visualizations](https://www.datawrapper.de/blog/text-in-data-visualizations).
 
@@ -590,6 +668,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Use abbreviations readers know (k, M, %), consistently.
 
 **When it is broken.** An axis labelled 0 to 40 with no unit; a caption saying "figures in thousands" that nobody reads.
+
+**See:** [not ideal vs better: unit only in the title vs $10M on the axis](https://www.datawrapper.de/blog/text-in-data-visualizations#repeat-the-units-your-data-is-measured-in)
 
 **Sources:** [Few 2006, Common Pitfalls (Pitfall 4)](https://www.perceptualedge.com/articles/Whitepapers/Common_Pitfalls.pdf); [Datawrapper, text in data visualizations](https://www.datawrapper.de/blog/text-in-data-visualizations).
 
@@ -621,6 +701,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 
 **When it is broken.** A start date chosen just after a peak so a flat period looks like steady growth; icons scaled in both width and height so a doubling looks like a quadrupling.
 
+**See:** [truncated graphs beside honest versions](https://en.wikipedia.org/wiki/Misleading_graph#Truncated_graph); [pictograms scaled in area or volume that exaggerate differences](https://en.wikipedia.org/wiki/Misleading_graph#Improper_scaling_of_pictograms)
+
 **Sources:** [Cairo 2019, *How Charts Lie* (W. W. Norton)](https://wwnorton.co.uk/books/9781324001560-how-charts-lie); [Correll, Bertini & Franconeri 2020](https://arxiv.org/abs/1907.02035); [Tufte, *The Visual Display of Quantitative Information*](https://www.edwardtufte.com/book/the-visual-display-of-quantitative-information/).
 
 ### Give every chart a text equivalent
@@ -634,6 +716,8 @@ Each rule states what to do, why it works, how to check it, what failure looks l
 - Per-mark labels when individual values matter; grouped summaries when only the shape does.
 
 **When it is broken.** A chart exposed to a screen reader as "image" or as a list of 365 unlabelled numbers.
+
+**See:** [W3C bar chart with its long description as a data table](https://www.w3.org/WAI/tutorials/images/complex/#example-1-description-containing-structured-information)
 
 **Sources:** [UK Analysis Function, Data visualisation: charts](https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/); [Apple HIG, Charts (Enhancing the accessibility of a chart)](https://developer.apple.com/design/human-interface-guidelines/charts); [Chartability](https://chartability.fizz.studio/).
 

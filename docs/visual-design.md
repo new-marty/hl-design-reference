@@ -42,6 +42,8 @@ starting point.
 **When it is broken.** Several cards, numbers or buttons compete at the same size and
 colour; people ask "where do I look?" or miss the main action.
 
+**See:** [Williams-Sonoma mobile page where nothing dominates (bad example), then annotated good examples](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/); [iPad app screenshot where one photo leads the screen and the sidebar steps back](https://developer.apple.com/design/human-interface-guidelines/layout#Visual-hierarchy)
+
 **Sources:** [Gordon, "Visual Hierarchy in UX: Definition", Nielsen Norman Group, 2021](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
 
 ### Build emphasis with weight, colour and contrast before size
@@ -60,6 +62,8 @@ when people enlarge text.
 **When it is broken.** Headings that are only slightly larger than body text and the same
 weight; secondary labels shouting at the same colour as the values they label.
 
+**See:** [MoMA and Noun Project screenshots where contrast and colour draw the eye first](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/#toc-1-color-and-contrast-1); [before/after cards where labels are toned down with colour and weight so the value stands out](https://www.refactoringui.com/previews/labels-are-a-last-resort)
+
 **Sources:** [Apple HIG, Typography](https://developer.apple.com/design/human-interface-guidelines/typography); [Gordon, NN/g, 2021](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
 
 ### Test hierarchy by blurring the screen
@@ -76,6 +80,8 @@ content such as a strongly coloured photo can override the template's intent.
 
 **When it is broken.** At high blur an icon, photo or decorative block becomes the darkest
 or most saturated thing on the screen.
+
+**See:** [Spotify screen shown sharp and blurred at 5, 10 and 20 px radii](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/#toc-the-squint-test-4)
 
 **Sources:** [Gordon, NN/g, 2021](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
 
@@ -97,6 +103,8 @@ outweighs colour or shape. Distant elements look unrelated and get overlooked.
 button sits among unrelated "Save" and "Cancel" buttons; a "Skip" link sits in a far corner
 and people think they cannot skip.
 
+**See:** [dot grid split by whitespace, and a form shown as one big block vs three spaced groups](https://www.nngroup.com/articles/gestalt-proximity/#toc-place-related-elements-near-each-other-1); [Material figures of caption, card and carousel grouped by spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing#e7e6d1ac-031a-4757-afcf-b223f23654ea)
+
 **Sources:** [Harley, "Proximity Principle in Visual Design", NN/g, 2020](https://www.nngroup.com/articles/gestalt-proximity/); [Material Design 3, Spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing)
 
 ### Add a border or box only when spacing cannot show the group
@@ -114,6 +122,8 @@ the end of the page so people stop scrolling.
 **When it is broken.** Every section is a bordered card inside another bordered card; lines
 separate items that spacing already separated.
 
+**See:** [filter menu with and without boxes (groups still clear), plus full-width colour bands that block scrolling](https://www.nngroup.com/articles/common-region/#toc-caution-overuse-creates-clutter-4); ['Design with tactics' section: the same contacts dialog with too many borders vs just right](https://www.refactoringui.com/)
+
 **Sources:** [Harley, "The Principle of Common Region", NN/g, 2020](https://www.nngroup.com/articles/common-region/); Wathan and Schoger, [Refactoring UI](https://www.refactoringui.com/) (book), ch. "Use fewer borders"; [Material Design 3, Spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing)
 
 ### Make things that work alike look alike, and things that differ look different
@@ -129,6 +139,8 @@ important. People use this to predict what an element does.
 
 **When it is broken.** Two buttons of different importance look the same; a heading uses the
 link colour and people tap it; a content block is sized like an ad and gets skipped.
+
+**See:** [shape and colour grids, plus real screens where look-alike buttons and icons mislead](https://www.nngroup.com/articles/gestalt-similarity/); [shopping-basket rows with identical thumbnails and text styles](https://m3.material.io/foundations/layout/grids-spacing/spacing#e65c81ef-1b96-4429-9e7e-9e85845bdd5e)
 
 **Sources:** [Harley, "Similarity Principle in Visual Design", NN/g, 2020](https://www.nngroup.com/articles/gestalt-similarity/); [Material Design 3, Spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing)
 
@@ -148,6 +160,8 @@ as subordinate to the item above them. Few shared edges make a screen look order
 **When it is broken.** Section titles, list text and card padding each start at slightly
 different x positions; icons and labels in a sidebar drift by a pixel or two between rows.
 
+**See:** [compact and desktop screens with alignment rulers drawn over them](https://m3.material.io/foundations/layout/grids-spacing/grids#5c930c1e-008b-4145-b77b-85c3bf917e6e); ['Sidebar alignments' image showing the edges Linear lines its sidebar up to](https://linear.app/now/how-we-redesigned-the-linear-ui)
+
 **Sources:** [Apple HIG, Layout](https://developer.apple.com/design/human-interface-guidelines/layout); [Material Design 3, Spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing); [Saarinen et al., "How we redesigned the Linear UI (part II)", Linear, 2024](https://linear.app/now/how-we-redesigned-the-linear-ui)
 
 ### Lay content on a column grid that changes with the window size
@@ -166,6 +180,8 @@ function stays the same.
 **When it is broken.** A desktop layout stretches a single text column to the full window
 width; a mobile layout drops a feature because it did not fit.
 
+**See:** [column mockups at each breakpoint, and the same course list on 4 and on 8 columns](https://m3.material.io/foundations/layout/grids-spacing/grids#8a0b2d21-7560-4c78-bfe0-d5b6506fdd14); [iPad diagrams of the four compact/regular size-class windows](https://developer.apple.com/design/human-interface-guidelines/layout#Size-classes)
+
 **Sources:** [Material Design 3, Grids](https://m3.material.io/foundations/layout/grids-spacing/grids); [Apple HIG, Layout](https://developer.apple.com/design/human-interface-guidelines/layout)
 
 ### Correct alignment by eye where geometric centring looks wrong
@@ -180,6 +196,8 @@ look off-centre when their bounding boxes are centred.
 
 **When it is broken.** A play icon looks pushed to the left inside a round button; a
 download arrow looks too low.
+
+**See:** [asymmetric download glyph before and after optical centring, side by side](https://developer.apple.com/design/human-interface-guidelines/icons#Best-practices)
 
 **Sources:** [Apple HIG, Icons](https://developer.apple.com/design/human-interface-guidelines/icons)
 
@@ -201,6 +219,8 @@ aligns components to an 8dp grid, with 4dp for smaller elements such as icons an
 **When it is broken.** Padding differs by one or two pixels between similar cards; the same
 gap is 14 px in one place and 16 px in another.
 
+**See:** [app bar, FAB and bottom nav laid on 8dp and 4dp grid overlays](https://m2.material.io/design/layout/spacing-methods.html#baseline-grid)
+
 **Sources:** [Material Design 2, Spacing methods](https://m2.material.io/design/layout/spacing-methods.html); [Brown, "More Meaningful Typography", A List Apart, 2011](https://alistapart.com/article/more-meaningful-typography/)
 
 ### Keep spacing identical between repeated items
@@ -214,6 +234,8 @@ follow, and similar spacing signals that items are related.
 
 **When it is broken.** Cards in a row have uneven gutters; one list row has extra padding
 because its content is longer.
+
+**See:** [row of cards of different heights kept at the same horizontal gap (rhythm)](https://m3.material.io/foundations/layout/grids-spacing/spacing#6e806161-b5a6-428d-a7e4-e90cc52581aa)
 
 **Sources:** [Material Design 3, Spacing](https://m3.material.io/foundations/layout/grids-spacing/spacing)
 
@@ -232,6 +254,8 @@ Second ratio around a 14 base, Apple defines named text styles.
 
 **When it is broken.** Ten or more font sizes in one app, several only one pixel apart.
 
+**See:** [Fig 1 golden-ratio modular scale diagram and Fig 2 a page set on that scale](https://alistapart.com/article/more-meaningful-typography/); [diagram of the Material 3 type scale with its few named steps](https://m3.material.io/styles/typography/type-scale-tokens)
+
 **Sources:** [Brown, A List Apart, 2011](https://alistapart.com/article/more-meaningful-typography/); [Material Design 3, Type scale tokens](https://m3.material.io/styles/typography/type-scale-tokens); [Apple HIG, Typography](https://developer.apple.com/design/human-interface-guidelines/typography)
 
 ### Keep lines of running text between 45 and 90 characters
@@ -245,6 +269,8 @@ readers lose their place.
 
 **When it is broken.** A paragraph spans a full desktop window; a settings description runs
 150 characters per line.
+
+**See:** [the same paragraph set too short, within the 50 to 75 character band, and too long, against a ruler](https://baymard.com/blog/line-length-readability)
 
 **Sources:** [Butterick, Practical Typography, "Line length"](https://practicaltypography.com/line-length.html); [Apple HIG, Layout (readable width guides)](https://developer.apple.com/design/human-interface-guidelines/layout)
 
@@ -261,6 +287,8 @@ strips. Users may also override spacing, and layouts must survive it.
 **When it is broken.** Multi-line text set at 100%; fixed-height containers that cut off text
 when users increase spacing.
 
+**See:** [one paragraph typeset at 110% (too tight), 135% (fine) and 170% (too loose)](https://practicaltypography.com/line-spacing.html)
+
 **Sources:** [Butterick, "Line spacing"](https://practicaltypography.com/line-spacing.html); [W3C, Understanding SC 1.4.12 Text Spacing](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html)
 
 ### Use tabular lining numerals wherever figures are compared
@@ -276,6 +304,8 @@ not jitter when they update. Proportional figures suit running text.
 **When it is broken.** A column of amounts has ragged digits; a counting number shifts
 sideways on every tick.
 
+**See:** [large typeset dollar amounts in proportional vs tabular figures, and the 0000/1111 width test](https://practicaltypography.com/alternate-figures.html#tabular-and-proportional-figures); [live example that switches tabular-nums and other numeral settings](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)
+
 **Sources:** [Butterick, "Alternate figures"](https://practicaltypography.com/alternate-figures.html); [MDN, font-variant-numeric](https://developer.mozilla.org/en-US/docs/Web/CSS/font-variant-numeric)
 
 ### Right-align numeric columns and give them the same precision
@@ -289,6 +319,8 @@ down. Consistent decimal places keep the digits aligned.
 - Keep rules thin and few; let alignment and spacing do the work.
 
 **When it is broken.** Centred numbers; a column mixing "1,200" and "34.5".
+
+**See:** [one spreadsheet-style table improved in five before/after steps, including right-aligned numbers and consistent precision](https://alistapart.com/article/web-typography-tables/#section11); [figure comparing numeral styles in a table of numbers](https://alistapart.com/article/web-typography-tables/#section7)
 
 **Sources:** [Rutter, "Web Typography: Designing Tables to be Read, Not Looked At", A List Apart, 2017](https://alistapart.com/article/web-typography-tables/)
 
@@ -306,6 +338,8 @@ thin weights are hard to read at small sizes.
 **When it is broken.** Three or four families on one screen; 12 px captions in a Light
 weight.
 
+**See:** [paired samples showing thin weights are harder to read at small sizes than thicker ones](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision)
+
 **Sources:** [Apple HIG, Typography](https://developer.apple.com/design/human-interface-guidelines/typography)
 
 ### Let text grow to 200% without losing content
@@ -321,6 +355,8 @@ content when they do.
 
 **When it is broken.** Buttons whose labels vanish at large text sizes; cards that clip the
 last line.
+
+**See:** [the same Mail message at the default text size and at the largest accessibility size](https://developer.apple.com/design/human-interface-guidelines/typography#Supporting-Dynamic-Type); [failure figures of headings cut off and text overlapping when text needs more room](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html#effects-not-allowing)
 
 **Sources:** [W3C, Understanding SC 1.4.4 Resize Text](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html); [Apple HIG, Typography](https://developer.apple.com/design/human-interface-guidelines/typography)
 
@@ -341,6 +377,8 @@ look even can be computed.
 **When it is broken.** A "500" yellow and a "500" blue have very different apparent
 brightness; a blue ramp drifts toward purple as it lightens.
 
+**See:** [HSL vs OKLCH slices with greyscale versions showing HSL lightness is uneven across hues](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl#oklch-vs-hsl); [live OKLCH picker with lightness, chroma and hue graphs](https://oklch.com/)
+
 **Sources:** [W3C, CSS Color Module Level 4, Oklab and OkLCh](https://www.w3.org/TR/css-color-4/#ok-lab); [Ottosson, "A perceptual color space for image processing", 2020](https://bottosson.github.io/posts/oklab/); [Sitnik and Turner, "OKLCH in CSS: why we moved from RGB and HSL", Evil Martians](https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl)
 
 ### Fix each colour's shades in advance
@@ -356,6 +394,8 @@ identical colours. A fixed ramp per colour makes choices quick and keeps them co
 
 **When it is broken.** A stylesheet with dozens of near-duplicate greys; one-off colours
 created by `opacity` or `darken()` in components.
+
+**See:** [full grey, primary and accent shade ramps, and how to pick the base, the edges and the steps between](https://www.refactoringui.com/previews/building-your-color-palette)
 
 **Sources:** [Wathan and Schoger, Refactoring UI, "Building Your Color Palette"](https://www.refactoringui.com/previews/building-your-color-palette)
 
@@ -374,6 +414,8 @@ and two secondary colours in simple designs.
 **When it is broken.** Several buttons with coloured backgrounds; decorative colour on
 headings, icons and backgrounds so that the real alert does not stand out.
 
+**See:** [iPhone toolbar with every button tinted (incorrect) vs only the Done button tinted (correct)](https://developer.apple.com/design/human-interface-guidelines/color#Liquid-Glass-color); [example UIs that are mostly greys with a few primary and accent colours](https://www.refactoringui.com/previews/building-your-color-palette)
+
 **Sources:** [Apple HIG, Color](https://developer.apple.com/design/human-interface-guidelines/color); [Gordon, NN/g, 2021](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/); [Refactoring UI, "Building Your Color Palette"](https://www.refactoringui.com/previews/building-your-color-palette)
 
 ### Name colours by role, not by value
@@ -391,6 +433,8 @@ dynamic colours and Material's colour roles both work this way.
 **When it is broken.** Hex values inside components; switching to dark mode leaves
 hard-coded colours behind.
 
+**See:** [swatch diagram of every Material colour role and components labelled with the role they use, with do/don't pairs](https://m3.material.io/styles/color/roles)
+
 **Sources:** [Material Design 3, Color roles](https://m3.material.io/styles/color/roles); [Apple HIG, Color](https://developer.apple.com/design/human-interface-guidelines/color); [Design Tokens Community Group, Design Tokens Format Module 2025.10](https://www.designtokens.org/tr/2025.10/format/)
 
 ### Use one colour for one meaning
@@ -407,6 +451,8 @@ lesson.
 **When it is broken.** A heading in the link colour gets tapped; green means "income" on one
 screen and "online" on another.
 
+**See:** [screens where a primary button and unrelated elements share one colour, so users can't tell them apart](https://www.nngroup.com/articles/gestalt-similarity/#toc-color-2)
+
 **Sources:** [Apple HIG, Color](https://developer.apple.com/design/human-interface-guidelines/color); [Harley, NN/g, Similarity, 2020](https://www.nngroup.com/articles/gestalt-similarity/)
 
 ### Never carry information by colour alone
@@ -422,6 +468,8 @@ hue. WCAG 1.4.1 requires another visual means.
 
 **When it is broken.** A red/green dot with no label; an error field marked only by a red
 border.
+
+**See:** [status indicators that look the same with red-green colour blindness vs ones that add a shape](https://developer.apple.com/design/human-interface-guidelines/accessibility#Vision); [pass/fail checkbox figures: colour-only checked state vs fill or thicker border](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#related-color)
 
 **Sources:** [W3C, Understanding SC 1.4.1 Use of Color](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html)
 
@@ -441,6 +489,8 @@ meaningful graphics need 3:1. Thresholds are not rounded: 4.499:1 fails.
 **When it is broken.** Light grey placeholder-like text used for real content; input fields
 whose borders disappear on the background.
 
+**See:** [pass/fail figures of inputs, checkboxes, radios and focus rings with their hex values](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html#adjacent-colors); [live checker showing sample text and UI parts with their AA/AAA pass or fail](https://webaim.org/resources/contrastchecker/)
+
 **Sources:** [W3C, Understanding SC 1.4.3 Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html); [W3C, Understanding SC 1.4.11 Non-text Contrast](https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html); [Apple HIG, Dark Mode](https://developer.apple.com/design/human-interface-guidelines/dark-mode)
 
 ### Use APCA as a design aid, not as a conformance target
@@ -458,6 +508,8 @@ contrast algorithm "is yet to be determined".
 **When it is broken.** A team claims "WCAG 3 compliant" contrast; colours pass APCA but fail
 an automated WCAG 2 audit.
 
+**See:** [live APCA calculator showing the Lc value and a font-size/weight table rendered in the chosen colours](https://apcacontrast.com/)
+
 **Sources:** [W3C, WCAG 3.0 Working Draft, "Text contrast sufficient"](https://www.w3.org/TR/wcag-3.0/); [Roselli, "WCAG3 Contrast as of April 2026"](https://adrianroselli.com/2026/04/wcag3-contrast-as-of-april-2026.html); [APCA in a Nutshell](https://git.apcacontrast.com/documentation/APCA_in_a_Nutshell.html)
 
 ### Design dark mode as its own palette, not an inversion
@@ -474,6 +526,8 @@ contrast on dark surfaces and produce optical vibration, so they need desaturati
 
 **When it is broken.** Inverted light colours; saturated brand colours that glare on black;
 cards that cannot be told from the background.
+
+**See:** [illustration that loses detail on a dark background, then a version adjusted for dark mode](https://developer.apple.com/design/human-interface-guidelines/dark-mode#Icons-and-images); [dark surfaces lightening with elevation, plus desaturated vs vibrating saturated accent colours](https://m2.material.io/design/color/dark-theme.html#properties)
 
 **Sources:** [Apple HIG, Dark Mode](https://developer.apple.com/design/human-interface-guidelines/dark-mode); [Material Design 2, Dark theme](https://m2.material.io/design/color/dark-theme.html)
 
@@ -494,6 +548,8 @@ dominates by accident.
 **When it is broken.** Filled and outlined icons side by side; a 1.5 px stroke next to a
 2 px stroke; one icon visibly larger than its neighbours.
 
+**See:** [do/don't pairs: consistent vs mixed icon sets, uneven strokes, isometric vs front-facing, on a 24dp keyline grid](https://m3.material.io/styles/icons/designing-icons); [four glyphs sized to match and drawn with one stroke weight](https://developer.apple.com/design/human-interface-guidelines/icons#Best-practices)
+
 **Sources:** [Apple HIG, Icons](https://developer.apple.com/design/human-interface-guidelines/icons); [Material Design 3, Designing icons](https://m3.material.io/styles/icons/designing-icons)
 
 ### Label icons unless their meaning is universal
@@ -508,6 +564,8 @@ in different products. A visible text label removes the guess.
 
 **When it is broken.** A toolbar of unlabelled glyphs that people hover or tap one by one to
 discover.
+
+**See:** [Usability.gov mobile icons with labels vs desktop icons that show labels only on hover](https://www.nngroup.com/articles/icon-usability/#toc-icons-need-a-text-label-2)
 
 **Sources:** [Harley, "Icon Usability", NN/g, 2014](https://www.nngroup.com/articles/icon-usability/)
 
@@ -528,6 +586,8 @@ uses two background sets, base and elevated.
 
 **When it is broken.** Every card has a different shadow; dialogs look no higher than cards.
 
+**See:** [diagram of Material's six elevation levels with dp values, and shadow/tone do-don't pairs](https://m3.material.io/styles/elevation/applying-elevation)
+
 **Sources:** [Material Design 3, Elevation](https://m3.material.io/styles/elevation/overview); [Apple HIG, Dark Mode](https://developer.apple.com/design/human-interface-guidelines/dark-mode)
 
 ### Light every shadow from the same source
@@ -543,6 +603,8 @@ surface rises, its shadow should move farther, blur more and fade.
 
 **When it is broken.** One card's shadow falls down-right, another's straight down; grey
 shadows look dirty on coloured backgrounds.
+
+**See:** [light-source diagram and live demos where every shadow falls the same way](https://www.joshwcomeau.com/css/designing-shadows/#creating-a-consistent-environment)
 
 **Sources:** [Comeau, "Designing Beautiful Shadows in CSS", 2021](https://www.joshwcomeau.com/css/designing-shadows/)
 
@@ -560,6 +622,8 @@ pages with strong signifiers.
 **When it is broken.** Text-only buttons that look like labels; cards that are tappable but
 look static.
 
+**See:** [strong vs weak (flat) clickable signifiers side by side, with eyetracking heatmaps of each](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/#toc-about-the-study-1)
+
 **Sources:** [Moran, "Flat UI Elements Attract Less Attention and Cause Uncertainty", NN/g, 2017](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/)
 
 ### Use translucent materials sparingly and check contrast over every background
@@ -575,6 +639,8 @@ changes from place to place. Low blur keeps background detail and distracts.
 
 **When it is broken.** A frosted header whose title becomes unreadable over a bright image;
 glass cards on a gradient with grey text.
+
+**See:** [low-blur glass that hurts text contrast vs high-blur Acrylic, and a contrast check over a gradient](https://www.nngroup.com/articles/glassmorphism/#toc-designing-with-glassmorphism-best-practices-4); [panels at 90/60/30% opacity and 0/25/100 px blur over the same background](https://www.nngroup.com/articles/glassmorphism/#toc-characteristics-of-glassmorphism-3)
 
 **Sources:** [Brown, "Glassmorphism: Definition and Best Practices", NN/g, 2024](https://www.nngroup.com/articles/glassmorphism/); [Apple HIG, Color](https://developer.apple.com/design/human-interface-guidelines/color)
 
@@ -596,6 +662,8 @@ differ between desktop and mobile.
 **When it is broken.** A table with three rows per screen on a desktop; a mobile form with
 controls so close that they are mis-tapped.
 
+**See:** [high- vs low-density news layouts, and don'ts for dense menus and snackbars](https://m3.material.io/foundations/layout/grids-spacing/density#7bd57971-f3eb-4050-a57e-be5698d048bc); [video of people opting in to a dense layout in settings](https://m3.material.io/foundations/layout/grids-spacing/density#c6412110-5c22-428a-a04c-3ee2bb591427)
+
 **Sources:** [Material Design 3, Density](https://m3.material.io/foundations/layout/grids-spacing/density)
 
 ### Keep touch and click targets above the platform minimum
@@ -611,6 +679,8 @@ Material 48 by 48 CSS px.
 
 **When it is broken.** A 16 px close icon with no padding; adjacent list actions that trigger
 each other.
+
+**See:** [scale drawings of 24px targets and spacing circles, with pass and fail cases](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html); [24dp icon inside a 48dp target, and a caution on a 40dp target](https://m3.material.io/foundations/layout/grids-spacing/density#0a02a341-0bfa-4521-9f34-9ba27a3ce1e0)
 
 **Sources:** [W3C, Understanding SC 2.5.8 Target Size (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html); [Apple HIG, Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility); [Material Design 3, Density](https://m3.material.io/foundations/layout/grids-spacing/density)
 
@@ -632,6 +702,8 @@ everywhere, and periodic audits catch drift.
 **When it is broken.** Three slightly different card paddings; a button style that differs
 between two screens because one was copied before a change.
 
+**See:** [Microsoft Office ribbons, Adobe menus and the Atlassian design-system button page as internal consistency](https://www.nngroup.com/articles/consistency-and-standards/#toc-a-continuum-of-consistency-1)
+
 **Sources:** [Krause, "Maintain Consistency and Adhere to Standards", NN/g, 2021](https://www.nngroup.com/articles/consistency-and-standards/); [Design Tokens Format Module 2025.10](https://www.designtokens.org/tr/2025.10/format/)
 
 ### Follow platform and web conventions unless a change clearly helps
@@ -646,6 +718,8 @@ them (Jakob's Law). Breaking a convention adds learning cost, so it needs a clea
 
 **When it is broken.** A custom navigation pattern that has to be explained; a familiar icon
 used for an unfamiliar action.
+
+**See:** [IKEA, Target, Etsy and Grainger headers that all put search, account and cart in the same places](https://www.nngroup.com/articles/consistency-and-standards/#toc-a-continuum-of-consistency-1)
 
 **Sources:** [Krause, NN/g, 2021](https://www.nngroup.com/articles/consistency-and-standards/); [Apple HIG, Layout](https://developer.apple.com/design/human-interface-guidelines/layout)
 
@@ -672,6 +746,8 @@ the broader argument that vibe-coding tools homogenize web design.
 **When it is broken.** White background, purple-to-blue gradient hero, centred headline,
 three feature cards with icons, default sans-serif, rounded-xl everything.
 
+**See:** [two pairs of vibe-coded sites for different businesses that came out about 85% visually similar](https://arxiv.org/html/2609.38183v1#S4.F2); [example of an LLM's default minimalist layout overriding a regional design preference](https://arxiv.org/html/2603.13036v1#S2.F1)
+
 **Sources:** [Anthropic, "Frontend Aesthetics: A Prompting Guide", Claude Cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb); [Boussioux, Zhao and Cho, "One Tool, One Taste?", arXiv preprint, 2026](https://arxiv.org/abs/2609.38183); [Shin et al., "Interrogating Design Homogenization in Web Vibe Coding", arXiv preprint, 2026](https://arxiv.org/abs/2603.13036)
 
 ### Decide the product's character before choosing styles
@@ -691,6 +767,8 @@ three values (base, accent, contrast) in a perceptual colour space.
 **When it is broken.** A finance tool styled like a game launch page; each screen borrowing a
 different reference.
 
+**See:** [Linear's before, concept and after screens, plus LCH vs HSL and new light/dark themes](https://linear.app/now/how-we-redesigned-the-linear-ui)
+
 **Sources:** Wathan and Schoger, [Refactoring UI](https://www.refactoringui.com/) (book), ch. "Choose a personality"; [Saarinen et al., Linear, 2024](https://linear.app/now/how-we-redesigned-the-linear-ui); [Anthropic, Claude Cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
 
 ### Choose the typeface on purpose
@@ -707,6 +785,8 @@ of the few fonts every template ships.
 
 **When it is broken.** The template's font, sizes and weights, unchanged.
 
+**See:** [comparison images of Georgia vs Miller and Arial vs Helvetica](https://practicaltypography.com/system-fonts.html)
+
 **Sources:** [Butterick, "System fonts"](https://practicaltypography.com/system-fonts.html); [Butterick, "Typography in ten minutes"](https://practicaltypography.com/typography-in-ten-minutes.html)
 
 ### Remove decoration that carries no information
@@ -722,6 +802,8 @@ adds noise and competes with the content for attention.
 
 **When it is broken.** Gradient text, glowing buttons, "New" badges and section eyebrows on
 a screen where the data itself is hard to find.
+
+**See:** ['Design with tactics' section: the same dialog with too many borders vs just right](https://www.refactoringui.com/); [filter menu with boxes vs without, showing the boxes added nothing](https://www.nngroup.com/articles/common-region/#toc-caution-overuse-creates-clutter-4)
 
 **Sources:** [Refactoring UI](https://www.refactoringui.com/) (book), ch. "Use fewer borders"; [Harley, NN/g, Common Region, 2020](https://www.nngroup.com/articles/common-region/); [Brown, NN/g, Glassmorphism, 2024](https://www.nngroup.com/articles/glassmorphism/); [Anthropic, Claude Cookbook](https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb)
 
@@ -740,6 +822,8 @@ familiar.
 
 **When it is broken.** An "original" navigation that people cannot find; or the opposite, a
 product that changed nothing from its template.
+
+**See:** [four differently styled ecommerce headers that keep search, account and cart where people expect them](https://www.nngroup.com/articles/consistency-and-standards/#toc-a-continuum-of-consistency-1); [three of the most original sites in the cohort, each leaving the common house style in its own way](https://arxiv.org/html/2609.38183v1#S4.F8)
 
 **Sources:** [Chimero, "The Web's Grain", 2015](https://frankchimero.com/blog/2015/the-webs-grain/); [Krause, NN/g, 2021](https://www.nngroup.com/articles/consistency-and-standards/)
 

@@ -435,6 +435,8 @@ Agrees with: [Decide the product's character before choosing styles](visual-desi
 
 > Make it fun. (2026-05-01)
 
+**See:** [Apple's animated Move/Exercise/Stand rings filling as you scroll](https://www.apple.com/watch/close-your-rings/)
+
 ### A stock component-library look is "not bad", which is not approval
 
 **(stated)** Default library parts laid out as they come read as dull and unrefined, and
@@ -453,6 +455,8 @@ Agrees with: [Know the default choices that make an interface read as generated]
 > 全然変わってない
 >
 > It hasn't changed at all. (Said of the same stock look with a new layout, 2026-10-04)
+
+**See:** [the default shadcn/ui component look, the stock style to move past](https://ui.shadcn.com/)
 
 ### "Design" often means the design system
 
@@ -493,6 +497,8 @@ Agrees with: [Meet the WCAG 2.2 contrast minimums for text and for controls](vis
 
 > I dont like the blue background card. (2026-05-07)
 
+**See:** [illustrated colour rules, incl. contrast and avoiding bright background colours](https://blog.datawrapper.de/colors/#how-to-make-better-color-choices); [NN/g screenshots of hard-to-read low-contrast text](https://www.nngroup.com/articles/low-contrast/)
+
 ### Group content in light cards on a tinted background
 
 **(stated)** A completely flat layout, with nothing separating groups, is hard to scan. Light
@@ -504,12 +510,16 @@ Departs from: [Add a border or box only when spacing cannot show the group](visu
 
 > hard to see without any background colors (2026-05-04)
 
+**See:** [NN/g card examples from real apps grouping content](https://www.nngroup.com/articles/cards-component/)
+
 ### Separate with hairlines rather than shadows
 
 **(inferred)** In the designs he picked, thin borders separate surfaces, and colour marks state.
 Read from his choices; he has not said it outright.
 
 Agrees with: [Use a few elevation levels, each with a fixed meaning](visual-design.md#use-a-few-elevation-levels-each-with-a-fixed-meaning).
+
+**See:** [Linear product screenshots separated by thin borders, no heavy shadows](https://linear.app/)
 
 ### Light mode only, unless the product needs dark
 
@@ -534,6 +544,8 @@ Agrees with: [Use few typefaces, and avoid thin weights at small sizes](visual-d
 
 > I don't like Instrument Serif. Get rid of it. (2026-05-01)
 
+**See:** [the full Lucide open-source icon set, browsable](https://lucide.dev/icons/); [Geist sans and Geist Mono type specimen](https://vercel.com/font)
+
 ### Use icons to identify things
 
 **(stated)** Where a recognisable icon exists, use it to label a category, group or row instead
@@ -544,6 +556,8 @@ Departs from: [Label icons unless their meaning is universal](visual-design.md#l
 > Use icons more effectively. (2026-05-04)
 
 > can we use icons? or is there not a corresponding icons? (2026-05-04)
+
+**See:** [NN/g examples of icons with and without labels](https://www.nngroup.com/articles/icon-usability/)
 
 ## Layout and type
 
@@ -584,6 +598,8 @@ Agrees with: [Disclose progressively, in no more than two levels](interface-desi
 
 > have a headline and open modal to reveal further info. (2026-05-04)
 
+**See:** [Copilot Money dashboard screenshot: budget summary cards on home](https://copilot.money/); [NN/g figures of summary-then-detail progressive disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
+
 ### Give every screen an obvious place to look, without going sparse
 
 **(strong)** A busy screen where everything competes fails, and so does a quiet one that says
@@ -609,6 +625,8 @@ Agrees with: [Decide the order of importance, then make one element dominant](vi
 > little colour. At this quality I can't switch to it. (2026-11-10)
 
 > Not sure how to not make it too noisy but informative at the same time. maybe we should have it in a different page? or a sub page? (2026-05-04)
+
+**See:** [NN/g good/bad screenshots of visual hierarchy and a focal point](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
 
 ### Gather what one moment of use needs in one place
 
@@ -650,6 +668,8 @@ Agrees with: [Give each screen one purpose and put the most important thing firs
 
 > sleep is the most consistent data. I want related data to be on top (2026-05-04)
 
+**See:** [NN/g examples of ordering and emphasising the most important item](https://www.nngroup.com/articles/visual-hierarchy-ux-definition/)
+
 ### Show each thing once, and treat peers as peers
 
 **(stated)** Each piece of information has one home. Items of equal rank get the same treatment
@@ -665,6 +685,8 @@ Agrees with: [Make things that work alike look alike, and things that differ loo
 > dont need workout history git-like stuff. we laready have this week card (2026-05-06)
 
 > why is order flipped? (2026-05-06)
+
+**See:** [Laws of UX illustration: similar-looking things read as one group](https://lawsofux.com/law-of-similarity/)
 
 ### Share the header and navigation, and never ship a broken layout
 
@@ -686,6 +708,8 @@ Agrees with: [Be consistent inside the product and with the platform](interface-
 >
 > Also, I noticed the UI is broken. (2026-11-11)
 
+**See:** [Apple HIG diagrams of safe areas around the notch and status bar](https://developer.apple.com/design/human-interface-guidelines/layout#Guides-and-safe-areas)
+
 ### Avoid horizontal scroll strips
 
 **(stated)** Rows of content that scroll sideways hide what is in them.
@@ -693,6 +717,8 @@ Agrees with: [Be consistent inside the product and with the platform](interface-
 Agrees with: [On phones, use linear layouts and give the plot the full width](data-visualization.md#on-phones-use-linear-layouts-and-give-the-plot-the-full-width).
 
 > useless horizontal scroll (2026-05-04)
+
+**See:** [NN/g screenshots of mobile carousels hiding content sideways](https://www.nngroup.com/articles/mobile-carousels/)
 
 ### Give text room to breathe
 
@@ -704,6 +730,8 @@ Agrees with: [Choose density for the task, and let people change it](visual-desi
 >
 > The text is packed far too tightly overall. There's no room and it feels cramped.
 > (2026-11-16)
+
+**See:** [live text samples at tight vs 120-145% line spacing](https://practicaltypography.com/line-spacing.html)
 
 ### Justify Japanese type choices with published guidance
 
@@ -718,6 +746,8 @@ Agrees with: [Choose the typeface on purpose](visual-design.md#choose-the-typefa
 >
 > Creepy. (Said of the Japanese font mock-ups, 2026-10-20)
 
+**See:** [W3C Japanese text layout requirements with hundreds of figures](https://www.w3.org/TR/jlreq/)
+
 ### For review screens, one recommended option and one primary button
 
 **(inferred)** A pattern he accepted for decision screens: the recommended option as a card with
@@ -726,6 +756,8 @@ accent colour only on that button, the recommendation and the chosen option, and
 aligned at the same height.
 
 Rejected: a top page that is only two buttons.
+
+**See:** [GOV.UK live button example; one main call to action per page](https://design-system.service.gov.uk/components/button/#default-buttons); [live recommendation card with one primary accept action](https://www.beautifului.dev/#recommendation-card)
 
 ## Colour
 
@@ -754,6 +786,8 @@ Agrees with: [Name colours by role, not by value](visual-design.md#name-colours-
 >
 > Show me the palette. (2026-11-12)
 
+**See:** [Material colour roles and palette diagrams (the source he shared)](https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes)
+
 ### Keep colour consistent everywhere
 
 **(strong)** The same meaning gets the same colour on every screen and chart, and the build
@@ -773,6 +807,8 @@ Agrees with: [Use one colour for one meaning](visual-design.md#use-one-colour-fo
 >
 > The colour of Spending is wrong. Does it even match the design? Don't be sloppy.
 > (2026-11-21)
+
+**See:** [many chart examples of a consistent colour style guide across charts](https://www.datawrapper.de/blog/colors-for-data-vis-style-guides)
 
 ### Build the palette from colour-system research, bright, and keep one that works
 
@@ -800,6 +836,8 @@ Agrees with: [Define colours in a perceptual space such as OKLCH](visual-design.
 > I don't know if it's the palette or how it's used, but the current one is far better.
 > (2026-11-13)
 
+**See:** [Material tonal palettes and colour-role mapping diagrams](https://m2.material.io/design/color/the-color-system.html#color-usage-and-palettes); [Radix Colors: bright 12-step scales with a stated use per step](https://www.radix-ui.com/colors)
+
 ### Never let a screen collapse into one hue
 
 **(strong)** Distinct things (sections, categories, exercises) get distinct colours from the
@@ -816,6 +854,8 @@ Departs from: [Keep context grey and spend one strong colour on the point](data-
 > 色が少ない。
 >
 > Too little colour. (2026-11-10)
+
+**See:** [Datawrapper's illustrated guide to categorical vs single-hue palettes](https://blog.datawrapper.de/colorguide/)
 
 ### Use colour for status sparingly, and don't double it up
 
@@ -835,6 +875,8 @@ Agrees with: [Keep most of the interface neutral and spend accent colour on mean
 > Distinguishing it by both adding something and colouring it would probably look visually
 > alarming. (2026-11-10)
 
+**See:** [grey context with one highlight colour, before/after charts](https://blog.datawrapper.de/colors/#how-to-make-better-color-choices)
+
 ### Red means worse for the user, green better, whatever the sign
 
 **(strong)** Colour a change by what it means for the user, not by its arithmetic sign. Spending
@@ -851,6 +893,8 @@ Agrees with: [Never let colour be the only way to tell data apart](data-visualiz
 > spendingが上がるのは赤では？下がったら緑では？
 >
 > Shouldn't spending going up be red? And going down green? (2026-11-11)
+
+**See:** ['Use intuitive colors' rule with chart examples](https://blog.datawrapper.de/colors/#how-to-make-better-color-choices)
 
 ## Motion and interaction
 
@@ -870,6 +914,8 @@ Agrees with: [Animate only to explain a change](interface-design.md#animate-only
 > base is boring is still boring. (2026-10-04)
 
 > I want to make this ring more fun ui. maybe have animation? (2026-05-04)
+
+**See:** [rings that fill on scroll: celebratory progress motion](https://www.apple.com/watch/close-your-rings/); [live components with restrained built-in motion](https://www.beautifului.dev/)
 
 ### Every affordance does what it promises
 
@@ -895,6 +941,8 @@ Agrees with: [Make interactive elements look interactive](interface-design.md#ma
 > And I can't even press 1Y or All. (2026-11-23)
 
 > check for ui that is not thought of … Like clicking this button does notthing now, menu modal is not though of, etc. (2026-05-04)
+
+**See:** [NN/g screenshots of weak vs clear clickability signifiers](https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/)
 
 ### Navigation feels native and instant
 
@@ -934,6 +982,8 @@ Agrees with: [Match the loading indicator to the wait](interface-design.md#match
 > loading とスケルトンの使い分けもできてない
 >
 > It doesn't distinguish properly between loading and skeletons either. (2026-11-16)
+
+**See:** [NN/g videos and images of skeleton screens vs spinners](https://www.nngroup.com/articles/skeleton-screens/); [NN/g examples of which progress indicator fits which wait](https://www.nngroup.com/articles/progress-indicators/)
 
 ### Take the pain out of input, and make corrections quick and fun
 
@@ -982,6 +1032,8 @@ be edited.
 >
 > Like I said, make goals settable in settings. (2026-11-11)
 
+**See:** [live approval card: the agent asks before acting](https://www.beautifului.dev/#approval-card)
+
 ### No suggestion chips, prompt hints or feature explainers
 
 **(strong)** Assume the user knows every feature.
@@ -1010,6 +1062,8 @@ Agrees with: [Keep the system status visible](interface-design.md#keep-the-syste
 >
 > I don't think it needs to notify me at all. Just make a UI where you can tell right away.
 > (2026-11-10)
+
+**See:** [NN/g screenshots of status shown in place in the interface](https://www.nngroup.com/articles/visibility-system-status/)
 
 ### Status messages must be true
 
@@ -1160,6 +1214,8 @@ Agrees with: [Show every key number against a reference](data-visualization.md#s
 
 > Lacking visual data (2026-05-04)
 
+**See:** [NN/g dashboard examples: numbers vs charts read at a glance](https://www.nngroup.com/articles/dashboards-preattentive/)
+
 ### One glance first, every detail on drill-down
 
 **(strong)** The overview answers in one glance; the drill-down holds every bit of detail the
@@ -1174,6 +1230,8 @@ Agrees with: [Do not hide critical information behind interaction](data-visualiz
 > Can dive deep if we want (2026-05-01)
 
 > I want the sleep chart? graph? that oura has. I want every bit of detail. (2026-05-04)
+
+**See:** [Oura's sleep-stage chart of a night's cycles](https://ouraring.com/blog/sleep-stages/)
 
 ### Test a screen against the product's concepts
 
@@ -1227,6 +1285,8 @@ Agrees with: [Use colour only when it carries meaning](data-visualization.md#use
 
 > There's lots of duplicate in … page nad … page. re-consider layout and what page shows what. (2026-05-06)
 
+**See:** [Chartosaur breakdown of a plain chart where every mark earns its place](https://www.chartosaur.com/blog/washington-post-music-nostalgia-chart)
+
 ### Present borrowed data better than its source does
 
 **(stated)** An app built on another product's data has to show it better. Copying the source's
@@ -1260,6 +1320,8 @@ Agrees with: [Use round tick values and a few light gridlines](data-visualizatio
 
 > make it so that it doesnt overlap with the bar (2026-05-06)
 
+**See:** [chart examples with and without axis labels and annotations](https://data.europa.eu/apps/data-visualisation-guide/labels-and-axis-annotations); [before/after: legend vs direct labels next to the lines](https://data.europa.eu/apps/data-visualisation-guide/direct-labelling)
+
 ### Readability beats aesthetics in every chart
 
 **(strong)** Faint lines, low-contrast fills and decorative treatments that cost legibility are
@@ -1276,6 +1338,8 @@ Agrees with: [Make supporting elements just visible enough](data-visualization.m
 > hard to see the bottom bar with this color (2026-05-06)
 
 > still difficult to see. what is the difference between origina … ui and ours? Why is ours hard to see? (2026-05-04)
+
+**See:** [NN/g bad examples (3D pies, gauges) vs readable charts](https://www.nngroup.com/articles/dashboards-preattentive/)
 
 ### Draw scores, progress and composition as rings, the same way everywhere
 
@@ -1300,6 +1364,8 @@ tuned screen one or two spots at a time](#refine-a-tuned-screen-one-or-two-spots
 
 > recov [recovery] can be a ring too so double donut ring (2026-05-06)
 
+**See:** [Apple's triple activity rings, animated](https://www.apple.com/watch/close-your-rings/); [Activity screen screenshot with Move, Exercise and Stand rings](https://support.apple.com/guide/watch/track-daily-activity-apd3bf6d85a6/watchos)
+
 ### No horizontal gauge bars for a single value
 
 **(stated)** Use a number with its change, a sparkline or a ring instead.
@@ -1321,6 +1387,8 @@ Agrees with: [Use bars for amounts by category and lines for change over time](d
 
 > Dont use bar chart. looks even worse. just use straight line with a lot of plots. (2026-05-04)
 
+**See:** [same data drawn linear, curved and stepped, side by side](https://data.europa.eu/apps/data-visualisation-guide/line-interpolations); [Datawrapper line chart examples incl. curved vs straight lines](https://www.datawrapper.de/blog/line-charts)
+
 ### Pick a scale and range that make the change visible
 
 **(stated)** A small change on a large base vanishes on a zero-based axis. Offer short ranges
@@ -1334,6 +1402,8 @@ Agrees with: [Set a line chart's range to show meaningful variation, and say whe
 > youshould think about how to present the data more. hard to see the growth for 3M (i also want 1m growth option too) since the scale is 0 - … and growth is little. (2026-05-04)
 
 > Hero chart contains almost no data. It's just a line. (2026-05-04)
+
+**See:** [line charts with zero vs cut axes, and the bar version for contrast](https://data.europa.eu/apps/data-visualisation-guide/scales-in-line-charts)
 
 ### Show progress toward every goal
 
@@ -1356,6 +1426,8 @@ Agrees with: [Show every key number against a reference](data-visualization.md#s
 >
 > Seeing in numbers that I improve as much as I actually go is what motivates me. (2026-11-23)
 
+**See:** [Activity rings filling toward each daily goal](https://support.apple.com/guide/watch/track-daily-activity-apd3bf6d85a6/watchos)
+
 ### Frame imprecise tracking as a daily target, not exact accounting
 
 **(stated)** When inputs can't be measured exactly, track whether the daily target was hit, as
@@ -1366,6 +1438,8 @@ a way to build awareness and habit.
 > Calories burned, protein and calories eaten are tracked mainly by whether they hit the daily
 > goal or stay within it. Doing it precisely is impossible, so it is mostly about building the
 > habit of being aware. (治ってる is a typo for 収まってる; 2026-11-23)
+
+**See:** [close-the-ring daily targets instead of exact totals](https://www.apple.com/watch/close-your-rings/)
 
 ### Show habits as slots that fill
 
@@ -1398,6 +1472,8 @@ Agrees with: [Sort categories by value unless they have a natural order](data-vi
 
 > Where is the breakdown of my spendings? (2026-05-04)
 
+**See:** [Copilot dashboard and recurrings screenshots: spending and subscriptions apart](https://copilot.money/)
+
 ### Show composition and growth together
 
 **(stated)** The parts of a whole and the whole's growth should read in one glance. Borrow that
@@ -1406,6 +1482,8 @@ idea from a product that does it even when its drawing is weak.
 Rejected: copying a reference product's UI along with its idea.
 
 > I dont like the UI of … but I like the idea. You can see the composition and the net worth grow in one glance. (2026-05-04)
+
+**See:** [Copilot net-worth area chart with assets and debts](https://copilot.money/#features)
 
 ### Prefer the figure that is true over the one that is live
 
@@ -1509,6 +1587,8 @@ Rejected: AI that jumps to conclusions about the user's data.
 > Showing "this might be a subscription" is best, isn't it? Not jumping to conclusions.
 > (2026-10-20)
 
+**See:** [agent suggestion card with a confidence meter, offered not asserted](https://www.beautifului.dev/#recommendation-card)
+
 ### Judge relatively, and encourage
 
 **(stated)** AI judgements compare against the day's intake, the trend or whether a key need was
@@ -1559,6 +1639,8 @@ Rejected: designing AI cards one at a time; prompt suggestions in the chat.
 >
 > 2. Make the memory editable right away from settings. (2026-11-23)
 
+**See:** [live chat showing tool calls as compact chips](https://www.beautifului.dev/#tool-chips); [live tabbed chat panel with composer](https://www.beautifului.dev/#chat-composer)
+
 ### An assistant replies in the user's language, politely
 
 **(stated)** An AI assistant answers in the language the user wrote in and keeps a polite
@@ -1600,6 +1682,8 @@ references; transplanting another project's look unchanged.
 >
 > Use Copilot Money as the reference. (2026-11-23)
 
+**See:** [official site with real app screenshots](https://copilot.money/)
+
 ### Beautiful UI as the parts source
 
 **(strong)** [Beautiful UI](https://beautifului.dev) is a component library for AI and chat
@@ -1620,6 +1704,8 @@ Rejected: comparisons ranked by downloads that leave it out.
 > Why do you never use the UI I said I liked? I've said I want to use Beautiful UI, yet it wasn't
 > in the demo. (2026-11-05)
 
+**See:** [live demos of every component](https://beautifului.dev/)
+
 ### Chartosaur for data storytelling
 
 **(strong)** [Chartosaur](https://www.chartosaur.com/tree) sets the bar for every chart and
@@ -1639,12 +1725,16 @@ Agrees with: [Data visualization](data-visualization.md) as a whole.
 > There are lots of good examples, so use it as a reference. And look for other free resources
 > like this. It was spot on. (2026-11-15)
 
+**See:** [a worked example: one chart picked apart](https://www.chartosaur.com/blog/washington-post-music-nostalgia-chart); [list of free worked chart examples](https://www.chartosaur.com/blog)
+
 ### Apple Fitness rings and Oura's sleep chart
 
 **(stated)** Admired patterns from health apps: Apple Fitness's activity rings, including a week
 of rings, and Oura's detailed sleep chart in full detail. The quotes are under
 [Draw scores, progress and composition as rings, the same way everywhere](#draw-scores-progress-and-composition-as-rings-the-same-way-everywhere)
 and [One glance first, every detail on drill-down](#one-glance-first-every-detail-on-drill-down).
+
+**See:** [Apple activity rings, animated](https://www.apple.com/watch/close-your-rings/); [Oura's sleep-stage chart across a night](https://ouraring.com/blog/sleep-stages/)
 
 ### Principle sources to design and review against
 
@@ -1664,6 +1754,8 @@ Agrees with: [Review against stated goals, with independent evaluators and sever
 >
 > (Shared as the reference for colour usage and palettes, 2026-11-13)
 
+**See:** [Laws of UX, each law with its illustration](https://lawsofux.com/); [Nielsen's 10 heuristics with an example image for each](https://www.nngroup.com/articles/ten-usability-heuristics/)
+
 ### Design-craft collections
 
 **(inferred)** He shared skill collections on UI craft as references for quality:
@@ -1682,3 +1774,5 @@ Copilot Money, Linear, Apple Fitness rings, Oura's sleep chart; Netflix and Airb
 patterns). Disliked: minimal marketing heroes and playful, illustrated product sites (Vercel,
 Zed, Notion Calendar, PostHog, Supabase, Cursor, Mercury); generic clean SaaS pages are "meh".
 Read from what he picked in comparisons.
+
+**See:** [Linear product screenshots: dense, state-rich UI](https://linear.app/); [Copilot Money app screenshots](https://copilot.money/)
