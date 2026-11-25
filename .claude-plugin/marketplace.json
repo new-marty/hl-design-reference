@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "design-reference",
+  "owner": { "name": "new-marty", "url": "https://github.com/new-marty" },
+  "description": "Install design-reference as a Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "design-reference",
+      "source": "./",
+      "description": "Principles for interface design, visual design and data visualization with primary sources, plus one person's recorded preferences.",
+      "keywords": ["design", "ui", "data-visualization", "charts", "typography", "colour"]
+    }
+  ]
+}

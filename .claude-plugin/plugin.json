@@ -1,0 +1,8 @@
+{
+  "name": "design-reference",
+  "description": "Principles for interface design, visual design and data visualization with primary sources, plus one person's recorded preferences.",
+  "author": { "name": "new-marty", "url": "https://github.com/new-marty" },
+  "homepage": "https://github.com/new-marty/hl-design-reference",
+  "repository": "https://github.com/new-marty/hl-design-reference",
+  "keywords": ["design", "ui", "data-visualization", "charts", "typography", "colour"]
+}
